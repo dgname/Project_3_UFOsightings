@@ -1,0 +1,984 @@
+City,State,Lat,Lng,ID
+Mexico City,Ciudad de México,19.4333,-99.1333,1484247881
+Guadalajara,Jalisco,20.6767,-103.3475,1484950208
+Monterrey,Nuevo León,25.6667,-100.3,1484559591
+Tijuana,Baja California,32.525,-117.0333,1484708778
+Ecatepec,México,19.6097,-99.06,1484003694
+Leon de los Aldama,Guanajuato,21.1167,-101.6833,1484811199
+Puebla,Puebla,19.0333,-98.1833,1484416394
+Zapopan,Jalisco,20.7167,-103.4,1484198680
+Juarez,Chihuahua,31.745,-106.485,1484840083
+Mexicali,Baja California,32.6633,-115.4678,1484788702
+Nezahualcoyotl,México,19.4081,-99.0186,1484074285
+Ciudad Nezahualcoyotl,México,19.4006,-99.0148,1484016661
+Morelia,Michoacán,19.7683,-101.1894,1484669072
+Aguascalientes,Aguascalientes,21.876,-102.296,1484666646
+Naucalpan de Juarez,México,19.4753,-99.2378,1484850125
+Merida,Yucatán,20.97,-89.62,1484396779
+Cancun,Quintana Roo,21.1606,-86.8475,1484010310
+Chihuahua,Chihuahua,28.6369,-106.0769,1484335603
+Saltillo,Coahuila,25.4231,-100.9919,1484107245
+El Dorado,Sinaloa,24.808,-107.397,1484719986
+Hermosillo,Sonora,29.0989,-110.9542,1484015319
+Culiacan,Sinaloa,24.8069,-107.3939,1484516810
+Queretaro,Querétaro,20.5875,-100.3928,1484604775
+San Luis Potosi,San Luis Potosí,22.1511,-100.9761,1484583620
+Guadalupe,Nuevo León,25.6775,-100.2597,1484002410
+Acapulco de Juarez,Guerrero,16.8636,-99.8825,1484463183
+Tlaquepaque,Jalisco,20.6167,-103.3167,1484087945
+Durango,Durango,24.025,-104.6675,1484854616
+Tlalnepantla,México,19.5367,-99.1947,1484861603
+Chimalhuacan,México,19.4167,-98.9,1484504936
+Irapuato,Guanajuato,20.6667,-101.35,1484625454
+Reynosa,Tamaulipas,26.0922,-98.2778,1484737671
+Tuxtla,Chiapas,16.7528,-93.1167,1484832519
+Tonala,Jalisco,20.6167,-103.2333,1484750897
+Cuautitlan Izcalli,México,19.65,-99.25,1484282338
+Ixtapaluca,México,19.3186,-98.8822,1484452937
+Heroica Matamoros,Tamaulipas,25.8797,-97.5042,1484614906
+Ciudad Apodaca,Nuevo León,25.7817,-100.1886,1484855080
+Tultitlan de Mariano Escobedo,México,19.645,-99.1694,1484562374
+Mazatlan,Sinaloa,23.2167,-106.4167,1484841466
+Ciudad Lopez Mateos,México,19.55,-99.2833,1484363879
+Ensenada,Baja California,31.8578,-116.6058,1484714297
+San Nicolas de los Garza,Nuevo León,25.75,-100.2833,1484264138
+Veracruz,Veracruz,19.1903,-96.1533,1484992153
+Xalapa,Veracruz,19.54,-96.9275,1484334948
+Nuevo Laredo,Tamaulipas,27.4861,-99.5069,1484597234
+Celaya,Guanajuato,20.5222,-100.8122,1484979555
+Nicolas Romero,México,19.5833,-99.3667,1484589606
+Tecamac,México,19.7131,-98.9683,1484363321
+Minatitlan,Veracruz,17.9833,-94.55,1484735713
+Villahermosa,Tabasco,17.9892,-92.9281,1484460894
+Gomez Palacio,Durango,25.5611,-103.4983,1484092318
+Cuernavaca,Morelos,18.9186,-99.2342,1484926471
+Uruapan,Michoacán,19.4208,-102.0628,1484051478
+Tepic,Nayarit,21.5083,-104.8931,1484433877
+Soledad de Graciano Sanchez,San Luis Potosí,22.1833,-100.9333,1484610487
+Ciudad Obregon,Sonora,27.4939,-109.9389,1484887986
+Salamanca,Guanajuato,20.5703,-101.1972,1484741627
+Guasavito,Sinaloa,25.5744,-108.4706,1484662260
+Tehuacan,Puebla,18.4617,-97.3928,1484817336
+Coatzacoalcos,Veracruz,18.15,-94.4333,1484016854
+Chalco,México,19.2647,-98.8975,1484834149
+Ciudad Benito Juarez,Nuevo León,25.65,-100.0833,1484140727
+Ciudad Santa Catarina,Nuevo León,25.6833,-100.45,1484858068
+Ciudad Victoria,Tamaulipas,23.7389,-99.1431,1484616519
+Playa del Carmen,Quintana Roo,20.6281,-87.0755,1484559458
+San Juan del Rio,Querétaro,20.3833,-99.9833,1484890205
+Oaxaca,Oaxaca,17.0606,-96.7253,1484301467
+Ciudad General Escobedo,Nuevo León,25.7933,-100.1583,1484345554
+Los Mochis,Sinaloa,25.7835,-108.9937,1484443585
+Pachuca,Hidalgo,20.1,-98.75,1484575026
+Tampico,Tamaulipas,22.2553,-97.8686,1484060031
+Coacalco,México,19.6333,-99.0931,1484929782
+Huixquilucan,México,19.3611,-99.3508,1484187110
+Nogales,Sonora,31.3,-110.9333,1484793569
+Heroica Nogales,Sonora,31.3186,-110.9458,1484364591
+La Paz,Baja California Sur,24.1422,-110.3108,1484005187
+Campeche,Campeche,19.85,-90.5306,1484431512
+Carmen,Campeche,18.6431,-91.8306,1484620016
+Monclova,Coahuila,26.9103,-101.4222,1484281759
+Garcia,Nuevo León,25.8167,-100.5833,1484753599
+Fresnillo,Zacatecas,23.175,-102.8675,1484014035
+Puerto Vallarta,Jalisco,20.6458,-105.2222,1484408906
+Toluca,México,19.2925,-99.6569,1484124846
+Tapachula,Chiapas,14.9,-92.2667,1484997178
+Jiutepec,Morelos,18.8833,-99.1667,1484001709
+Comalcalco,Tabasco,18.2801,-93.2018,1484317909
+Guadalupe,Zacatecas,22.7528,-102.5078,1484781342
+Zamora,Michoacán,19.9833,-102.2833,1484229977
+Cordoba,Veracruz,18.8942,-96.9347,1484179679
+Ciudad Madero,Tamaulipas,22.25,-97.8333,1484185237
+Cuautla,Morelos,18.8167,-98.95,1484359683
+Guanajuato,Guanajuato,21.0178,-101.2567,1484185068
+Ciudad del Carmen,Campeche,18.6333,-91.8333,1484192447
+Manzanillo,Colima,19.0522,-104.3158,1484223913
+Poza Rica de Hidalgo,Veracruz,20.5333,-97.45,1484808798
+Chilpancingo,Guerrero,17.55,-99.5,1484290575
+San Cristobal,Chiapas,16.7367,-92.6383,1484451215
+Cuauhtemoc,Chihuahua,28.405,-106.8667,1484365643
+Cuautitlan,México,19.6833,-99.1833,1484256075
+Ciudad Valles,San Luis Potosí,21.9833,-99.0167,1484904610
+San Luis Rio Colorado,Sonora,32.4767,-114.7625,1484573106
+Santa Maria Texmelucan,Puebla,19.2833,-98.4333,1484127851
+Chicoloapan,México,19.4167,-98.9,1484980825
+Piedras Negras,Coahuila,28.7,-100.5231,1484000400
+Lagos de Moreno,Jalisco,21.35,-101.9167,1484759605
+Chetumal,Quintana Roo,18.5036,-88.3053,1484338031
+San Martin Texmelucan de Labastida,Puebla,19.2833,-98.4333,1484481265
+Tuxtepec,Oaxaca,18.1,-96.1167,1484448356
+San Andres Tuxtla,Veracruz,18.4483,-95.2122,1484871648
+Papantla de Olarte,Veracruz,20.4478,-97.32,1484844355
+Tulancingo,Hidalgo,20.0833,-98.3667,1484419416
+Ciudad Acuna,Coahuila,29.3242,-100.9317,1484828397
+Macuspana,Tabasco,17.7667,-92.6,1484086926
+Guaymas,Sonora,27.9183,-110.8933,1484822562
+Ixtlahuaca,México,19.5689,-99.7669,1484837068
+Delicias,Chihuahua,28.1931,-105.4717,1484405772
+Valle de Santiago,Guanajuato,20.3928,-101.1914,1484060538
+Penjamo,Guanajuato,20.4311,-101.7222,1484131107
+Villa de Alvarez,Colima,19.25,-103.7333,1484653806
+Pesqueria,Nuevo León,25.785,-100.0511,1484002865
+Colima,Colima,19.2433,-103.7247,1484585697
+Boca del Rio,Veracruz,19.1056,-96.1078,1484658980
+Tepatitlan de Morelos,Jalisco,20.8139,-102.7639,1484777621
+Las Maravillas,Chiapas,16.3667,-91.7333,1484792236
+Iguala de la Independencia,Guerrero,18.345,-99.5383,1484280781
+Kanasin,Yucatán,20.9344,-89.5578,1484390572
+Cunduacan,Tabasco,18.0667,-93.1667,1484076708
+San Jose del Cabo,Baja California Sur,23.0614,-109.7081,1484157742
+Zinacantepec,México,19.2833,-99.7333,1484976252
+Huejutla de Reyes,Hidalgo,21.1333,-98.4167,1484746079
+Cholula de Rivadabia,Puebla,19.0633,-98.3064,1484237822
+Apatzingan de la Constitucion,Michoacán,19.0886,-102.3508,1484693242
+Orizaba,Veracruz,18.85,-97.1,1484766767
+Zacatecas,Zacatecas,22.7736,-102.5736,1484118312
+San Pedro Garza Garcia,Nuevo León,25.6667,-100.3,1484228590
+Ciudad Hidalgo,Michoacán,19.6917,-100.5536,1484580926
+Navojoa,Sonora,27.0813,-109.4461,1484166303
+Chilapa de Alvarez,Guerrero,17.5944,-99.1778,1484562441
+Tizayuca,Hidalgo,19.8333,-98.9833,1484244950
+Miramar,Tamaulipas,22.3375,-97.8694,1484353090
+Matamoros,Coahuila,25.533,-103.25,1484930279
+Heroica Guaymas,Sonora,27.9183,-110.8989,1484689704
+Tecoman,Colima,18.9089,-103.8747,1484348795
+Temixco,Morelos,18.85,-99.2333,1484273506
+El Pueblito,Querétaro,20.5397,-100.4414,1484084843
+Ciudad Guzman,Jalisco,19.7,-103.4667,1484316056
+Tlapacoyan,Veracruz,19.9617,-97.2108,1484434864
+Las Delicias,Chihuahua,28.2,-105.5,1484513329
+Comitan,Chiapas,16.25,-92.1333,1484955658
+Chilon,Chiapas,17.1167,-92.2833,1484862349
+San Antonio Enchisi,México,19.7072,-99.7867,1484770456
+Martinez de la Torre,Veracruz,20.0667,-97.05,1484150240
+Temoaya,México,19.4686,-99.5933,1484890875
+Lerma,México,19.2847,-99.5119,1484402392
+Texcoco,México,19.52,-98.88,1484653265
+Parral,Chihuahua,26.9333,-105.6667,1484607603
+Tenancingo,México,18.9608,-99.5906,1484006247
+Tula de Allende,Hidalgo,20.05,-99.35,1484845374
+Matehuala,San Luis Potosí,23.6528,-100.6444,1484682498
+Ciudad Rio Bravo,Tamaulipas,25.9861,-98.0889,1484549731
+San Luis de la Paz,Guanajuato,21.2986,-100.5164,1484137795
+Playas de Rosarito,Baja California,32.3422,-117.0561,1484522993
+San Felipe del Progreso,México,19.7125,-99.9511,1484781559
+Ixmiquilpan,Hidalgo,20.4819,-99.2181,1484683374
+Tamazunchale,San Luis Potosí,21.2667,-98.7833,1484802864
+Paraiso,Tabasco,18.3961,-93.2128,1484393519
+Rincon de Romos,Aguascalientes,22.2333,-102.3167,1484371427
+Ocotlan,Jalisco,20.3467,-102.7744,1484159296
+San Jose del Rincon Centro,México,19.6606,-100.1525,1484390046
+Santa Cruz Xoxocotlan,Oaxaca,17.0264,-96.7333,1484706021
+Teziutlan,Puebla,19.8178,-97.3667,1484709570
+Coatepec,Veracruz,19.4522,-96.9614,1484934939
+Tultepec,México,19.685,-99.1281,1484818856
+Agua Prieta,Sonora,31.3258,-109.5489,1484381848
+Ciudad de Atlixco,Puebla,18.9,-98.45,1484268457
+San Francisco,Sonora,30.7841,-112.518,1484657489
+Jilotepec,México,19.9519,-99.5328,1484789785
+Salinas Victoria,Nuevo León,25.9667,-100.3,1484014927
+Santa Rosa Jauregui,Querétaro,20.7418,-100.4473,1484681374
+Guasave,Sinaloa,25.5655,-108.4718,1484450749
+Apaseo el Grande,Guanajuato,20.5531,-100.6347,1484338735
+Ciudad Mante,Tamaulipas,22.7333,-98.95,1484536173
+Tuxpam de Rodriguez Cano,Veracruz,20.95,-97.4,1484316468
+Acayucan,Veracruz,17.9422,-94.9103,1484349924
+La Piedad,Michoacán,20.3333,-102.0167,1484779296
+La Trinidad,Chiapas,15.9833,-91.8667,1484023235
+Apizaco,Tlaxcala,19.4167,-98.1333,1484021647
+Xicotepec de Juarez,Puebla,20.3,-97.9667,1484427246
+Salina Cruz,Oaxaca,16.1833,-95.2,1484364230
+Tecate,Baja California,32.5722,-116.6403,1484547809
+Tala,Jalisco,20.6667,-103.7,1484003075
+Maravatio de Ocampo,Michoacán,19.8976,-100.45,1484174386
+San Andres Cholula,Puebla,19.05,-98.3,1484648176
+Patzcuaro,Michoacán,19.5164,-101.6097,1484039505
+Ciudad Lerdo,Durango,25.55,-103.5167,1484980436
+Juventino Rosas,Guanajuato,20.65,-101.0,1484008596
+Ciudad Lazaro Cardenas,Michoacán,17.9561,-102.1922,1484804575
+Sahuayo de Morelos,Michoacán,20.05,-102.7333,1484554120
+Villa Victoria,México,19.4333,-100.0,1484528358
+Huebampo,Sonora,26.7228,-109.4856,1484527916
+Cozumel,Quintana Roo,20.5104,-86.9493,1484935305
+Tecamachalco,Puebla,18.8667,-97.7167,1484013224
+Tacambaro de Codallos,Michoacán,19.2356,-101.4569,1484508699
+Cadereyta Jimenez,Nuevo León,25.6,-100.0,1484839099
+Frontera,Coahuila,26.926,-101.449,1484811972
+Juchitan de Zaragoza,Oaxaca,16.4333,-95.0167,1484386317
+Silao,Guanajuato,20.9478,-101.4281,1484276023
+San Francisco del Rincon,Guanajuato,21.0228,-101.86,1484674455
+Tejupilco,México,18.9058,-100.1528,1484506998
+Linares,Nuevo León,24.8597,-99.5647,1484504671
+San Miguel de Allende,Guanajuato,20.9142,-100.7436,1484007926
+San Juan de los Lagos,Jalisco,21.2458,-102.3308,1484319370
+Los Reyes de Salgado,Michoacán,19.5833,-102.4667,1484279186
+Rioverde,San Luis Potosí,21.93,-99.98,1484341437
+Ixtaczoquitlan,Veracruz,18.85,-97.0667,1484464346
+Purisima de Bustos,Guanajuato,21.0333,-101.8667,1484104201
+Jacona de Plancarte,Michoacán,19.9333,-102.3167,1484202328
+Yuriria,Guanajuato,20.2,-101.15,1484511222
+Mineral de la Reforma,Hidalgo,20.15,-98.4333,1484886107
+Valle Hermoso,Tamaulipas,25.6736,-97.8144,1484479299
+Zapotlanejo,Jalisco,20.6228,-103.0689,1484013669
+Cabo San Lucas,Baja California Sur,22.8897,-109.9156,1484694325
+Ixtlahuacan de los Membrillos,Jalisco,20.35,-103.1833,1484370414
+La Barca,Jalisco,20.2833,-102.5667,1484900173
+Tepotzotlan,México,19.7161,-99.2236,1484890297
+Santa Catarina Otzolotepec,Puebla,18.5667,-97.25,1484006128
+Heroica Caborca,Sonora,30.7167,-112.15,1484993432
+Zihuatanejo,Guerrero,17.6444,-101.5511,1484489217
+Dolores Hidalgo Cuna de la Independencia Nacional,Guanajuato,21.1516,-100.9369,1484115665
+San Mateo Atenco,México,19.2667,-99.5333,1484296261
+Ramos Arizpe,Coahuila,25.55,-100.9667,1484685820
+Ocoyoacac,México,19.2739,-99.4606,1484479100
+Torreon,Coahuila,25.5419,-103.4083,1484215762
+Jocotitlan,México,19.7072,-99.7867,1484167307
+Jiquilpan de Juarez,Michoacán,19.9942,-102.7172,1484915765
+Autlan de Navarro,Jalisco,19.7667,-104.3667,1484240559
+Coyula,Jalisco,20.6586,-103.2264,1484778877
+Sabinas,Coahuila,27.9167,-101.3,1484526560
+Santo Domingo Tehuantepec,Oaxaca,16.3244,-95.2389,1484904308
+Apaseo el Alto,Guanajuato,20.45,-100.6167,1484638153
+Santiago Tianguistenco,México,19.1797,-99.4706,1484113134
+Misantla,Veracruz,19.9333,-96.85,1484744150
+Guamuchil,Sinaloa,25.4639,-108.0794,1484709566
+Teoloyucan,México,19.7442,-99.1811,1484003827
+Puerto Penasco,Sonora,31.3167,-113.5369,1484567937
+Cortazar,Guanajuato,20.4828,-100.9611,1484238779
+Valle de Bravo,México,19.1925,-100.1306,1484105173
+Huatusco,Veracruz,19.1489,-96.9661,1484463389
+Atotonilco el Alto,Jalisco,20.5333,-102.5,1484290836
+Huehuetoca,México,19.8342,-99.2033,1484000089
+Altamira,Tamaulipas,22.3375,-97.8694,1484764524
+Huauchinango,Puebla,20.1767,-98.0528,1484856743
+Balancan,Tabasco,17.8,-91.5333,1484783192
+Temascalcingo,México,19.9147,-100.0036,1484038182
+Zempoala,Hidalgo,19.9153,-98.6689,1484524155
+Jerez de Garcia Salinas,Zacatecas,22.6481,-102.9903,1484361423
+Santiago Tuxtla,Veracruz,18.4653,-95.3025,1484009696
+Cosamaloapan,Veracruz,18.3667,-95.8,1484307969
+Alvarado,Veracruz,18.7811,-95.7572,1484208918
+Tezonapa,Veracruz,18.6,-96.6833,1484617215
+Acambay,México,19.9539,-99.8431,1484667611
+Acambaro,Guanajuato,20.0361,-100.7314,1484524073
+Uman,Yucatán,20.8833,-89.75,1484009408
+Chiapa de Corzo,Chiapas,16.7069,-93.0139,1484314420
+Nuevo Casas Grandes,Chihuahua,30.4167,-107.9167,1484004002
+Oxchuc,Chiapas,16.7833,-92.2833,1484221816
+Tequisquiapan,Querétaro,20.5206,-99.8958,1484303338
+Ixhuatlan de Madero,Veracruz,20.6833,-98.0167,1484817314
+Encarnacion de Diaz,Jalisco,21.5167,-102.2333,1484206173
+Pinotepa,Oaxaca,16.3412,-98.0537,1484150923
+Simojovel de Allende,Chiapas,17.15,-92.7167,1484425686
+San Jose Villa de Allende,México,19.3747,-100.1475,1484492033
+Tizimin,Yucatán,21.1425,-88.1647,1484254957
+Tlacotepec,Puebla,18.6882,-97.6489,1484013898
+Taxco de Alarcon,Guerrero,18.5564,-99.605,1484987082
+Uriangato,Guanajuato,20.1333,-101.1667,1484679933
+Acatzingo,Puebla,18.9817,-97.7822,1484022961
+Huamantla,Tlaxcala,19.3133,-97.9228,1484180362
+Palenque,Chiapas,17.4333,-91.8,1484011438
+Uman,Yucatán,20.8833,-89.75,1484028324
+Zumpango,México,19.7969,-99.0992,1484625824
+Francisco I. Madero,Coahuila,25.7753,-103.2731,1484764993
+Tepeapulco,Hidalgo,19.7856,-98.5517,1484457950
+San Pedro,Coahuila,25.7578,-102.9831,1484673086
+Santa Lucia del Camino,Oaxaca,17.0667,-96.7,1484226980
+Catemaco,Veracruz,18.4167,-95.1167,1484469922
+Cintalapa de Figueroa,Chiapas,16.6978,-93.7203,1484563700
+Valladolid,Yucatán,20.6894,-88.2017,1484332013
+Jimenez,Chihuahua,27.13,-104.9067,1484452730
+San Pedro Mixtepec,Oaxaca,16.0,-97.1169,1484546885
+Colonia del Sol,Baja California Sur,22.9125,-109.9208,1484445555
+Cuetzalan,Puebla,20.0333,-97.5167,1484831454
+Ocosingo,Chiapas,16.9072,-92.0961,1484937914
+Pabellon de Arteaga,Aguascalientes,22.15,-102.2667,1484799033
+Buena Vista Tomatlan,Michoacán,19.2102,-102.5869,1484801408
+Chenalho,Chiapas,16.9333,-92.5667,1484048952
+Calimaya,México,19.1608,-99.6172,1484137559
+Santiago,Nuevo León,25.4333,-100.1333,1484043921
+Teotihuacan,México,19.6897,-98.8608,1484416743
+Santa Ana Chiautempan,Tlaxcala,19.3167,-98.1833,1484567035
+San Francisco de los Romo,Aguascalientes,22.0833,-102.2667,1484352122
+La Independencia,Chiapas,16.2526,-92.0237,1484210828
+Tlalmanalco,México,19.2044,-98.8025,1484054902
+Acaxochitlan,Hidalgo,20.1667,-98.2,1484005465
+Santa Maria Huatulco,Oaxaca,15.85,-96.3333,1484007409
+Guacharachi,Chihuahua,27.15,-107.3167,1484013438
+Cuautepec de Hinojosa,Hidalgo,20.15,-98.4333,1484413126
+Ciudad de Huajuapam de Leon,Oaxaca,17.8,-97.7667,1484375272
+Montemorelos,Nuevo León,25.1872,-99.8267,1484813948
+Tres Valles,Veracruz,18.1667,-96.0167,1484297361
+Meoqui,Chihuahua,28.2722,-105.4819,1484867296
+Jalacingo,Veracruz,19.8,-97.3,1484760292
+Petatlan,Guerrero,17.5383,-101.2739,1484714363
+Tlajomulco de Zuniga,Jalisco,20.4736,-103.4431,1484017493
+Zongolica,Veracruz,18.6667,-97.0,1484604711
+Ciudad Constitucion,Baja California Sur,25.0322,-111.6703,1484811681
+Pedro Celestino Negrete,Durango,24.726,-102.984,1484247270
+Loreto,Zacatecas,22.2667,-101.9833,1484384276
+Actopan,Veracruz,19.5036,-96.6192,1484594634
+Isla,Veracruz,18.0333,-95.5333,1484843047
+Hueyapan de Ocampo,Veracruz,18.15,-95.15,1484670918
+Villa de Zaachila,Oaxaca,16.9508,-96.7492,1484472329
+Ocozocoautla de Espinosa,Chiapas,16.7625,-93.375,1484720187
+Jesus Maria,Aguascalientes,21.9667,-102.35,1484096692
+Tepalcatepec,Michoacán,19.1833,-102.85,1484817788
+Atenco,México,19.5167,-98.9167,1484838122
+Tecoanapa,Guerrero,16.8,-99.15,1484394496
+Acatlan de Perez Figueroa,Oaxaca,18.5333,-96.6,1484695178
+Jocotepec,Jalisco,20.2863,-103.4304,1484245726
+Coyuca de Catalan,Guerrero,18.3256,-100.6992,1484460732
+Santa Maria Atzompa,Oaxaca,17.1014,-96.7778,1484411990
+Coyotepec,México,19.75,-99.1711,1484352296
+Jaltipan de Morelos,Veracruz,17.9703,-94.7144,1484054405
+Tezoyuca,México,19.5903,-98.9083,1484920679
+Yajalon,Chiapas,17.1833,-92.3167,1484860213
+Camargo,Chihuahua,27.667,-105.167,1484013592
+Cihuatlan,Jalisco,19.25,-104.5667,1484019808
+Heroica Ciudad de Tlaxiaco,Oaxaca,17.2077,-97.6798,1484201826
+Zimapan,Hidalgo,20.7333,-99.3833,1484785009
+Yecapixtla,Morelos,18.8833,-98.865,1484433908
+Matias Romero,Oaxaca,16.8667,-95.0333,1484296757
+Temascal,Oaxaca,18.2394,-96.4031,1484505986
+Villa del Carbon,México,19.7272,-99.5417,1484004677
+Apan,Hidalgo,19.7,-98.4333,1484086106
+Playa Vicente,Veracruz,17.8333,-95.8167,1484068720
+Axochiapan,Morelos,18.5,-98.75,1484424671
+Nueva Rosita,Coahuila,27.9372,-101.2172,1484540557
+Ciudad Melchor Muzquiz,Coahuila,27.8667,-101.5,1484736113
+Galeana,Nuevo León,24.8333,-100.0667,1484336701
+Juan Rodriguez Clara,Veracruz,18.0,-95.4,1484000401
+Empalme,Sonora,27.9617,-110.8125,1484366250
+Zacatelco,Tlaxcala,19.2167,-98.2333,1484460521
+Santa Clara del Cobre,Michoacán,19.405,-101.638,1484589302
+San Felipe Orizatlan,Hidalgo,21.1719,-98.6064,1484942420
+Xico,Veracruz,19.417,-97.0,1484011085
+Zacualtipan,Hidalgo,20.65,-98.65,1484806928
+Cananea,Sonora,30.9828,-110.3017,1484752107
+Tlapa de Comonfort,Guerrero,17.5461,-98.5764,1484110723
+San Juan Cancuc,Chiapas,16.9333,-92.3833,1484128452
+Ameca,Jalisco,20.5486,-104.0431,1484716155
+Tlalixcoyan,Veracruz,18.8031,-96.0611,1484527678
+Calpulalpan,Tlaxcala,19.5869,-98.5683,1484814346
+Jalapa,Tabasco,17.7,-92.8,1484336788
+Mixquiahuala de Juarez,Hidalgo,20.2311,-99.2131,1484223912
+Melchor Ocampo,México,19.7083,-99.1444,1484243108
+Villaflores,Chiapas,16.2355,-93.2677,1484602239
+Tuxpan,Jalisco,19.5539,-103.3756,1484236445
+Perote,Veracruz,19.5619,-97.2419,1484668149
+Paracho de Verduzco,Michoacán,19.65,-102.0667,1484536308
+Progreso,Yucatán,21.2828,-89.6636,1484340626
+Mariano Escobedo,Veracruz,18.9167,-97.1333,1484215926
+Salvatierra,Guanajuato,20.2156,-100.8961,1484878589
+Ciudad Manuel Doblado,Guanajuato,20.7303,-101.9533,1484254805
+Sayula,Jalisco,19.8667,-103.6167,1484178547
+Jaral del Progreso,Guanajuato,20.3667,-101.0667,1484182390
+Tomatlan,Jalisco,19.9369,-105.25,1484507470
+Santiago Juxtlahuaca,Oaxaca,17.3333,-98.0167,1484380988
+Coatepec Harinas,México,18.9,-99.7167,1484641903
+Zacatepec,Morelos,18.6833,-99.1833,1484549065
+Berriozabal,Chiapas,16.8003,-93.2733,1484051098
+Miahuatlan de Porfirio Diaz,Oaxaca,16.3167,-96.5833,1484776246
+Tamuin,San Luis Potosí,22.0,-98.7833,1484269723
+Tonala,Chiapas,16.0914,-93.7518,1484944309
+Ciudad de Allende,Nuevo León,25.2833,-100.0167,1484216013
+Tangancicuaro de Arista,Michoacán,19.887,-102.208,1484528763
+Soteapan,Veracruz,18.2333,-94.8667,1484716801
+Rio Grande,Zacatecas,23.8225,-103.0361,1484276798
+Tenosique,Tabasco,17.4756,-91.4225,1484303350
+Ocuilan de Arteaga,México,19.0,-99.4,1484570544
+Santa Ana Nextlalpan,México,19.7167,-99.0667,1484696225
+La Huacana,Michoacán,18.9625,-101.8069,1484078900
+Tepeji del Rio de Ocampo,Hidalgo,19.9039,-99.3414,1484352351
+Acatlan de Osorio,Puebla,18.2086,-98.0575,1484340141
+San Juan Evangelista,Veracruz,17.8833,-95.1333,1484667360
+Parras de la Fuente,Coahuila,25.4403,-102.1792,1484273682
+Zacatlan,Puebla,19.9319,-97.96,1484132726
+Tlanchinol,Hidalgo,19.9892,-98.6786,1484386874
+Ixtapan de la Sal,México,18.8333,-99.6833,1484821151
+Paso de Ovejas,Veracruz,19.285,-96.44,1484005936
+Tulum,Quintana Roo,20.2119,-87.4658,1484002889
+Panuco,Veracruz,22.05,-98.1833,1484059135
+Temascalapa,México,19.8,-98.9,1484792221
+Villanueva,Zacatecas,22.3536,-102.8831,1484244113
+San Felipe,Guanajuato,21.4833,-101.2167,1484279509
+Ticul,Yucatán,20.3953,-89.5339,1484056090
+Sayula de Aleman,Veracruz,17.8833,-94.95,1484073387
+Putla Villa de Guerrero,Oaxaca,17.0167,-97.9167,1484503444
+Nueva Italia de Ruiz,Michoacán,19.0194,-102.1089,1484876293
+Huixtla,Chiapas,15.1383,-92.4658,1484012568
+Ciudad Sabinas Hidalgo,Nuevo León,26.5,-100.1833,1484159329
+Paso del Macho,Veracruz,18.9667,-96.7167,1484203573
+Turicato,Michoacán,19.05,-101.4167,1484580353
+El Oro de Hidalgo,México,19.8008,-100.1314,1484677445
+Amatenango de la Frontera,Chiapas,15.5333,-92.0833,1484343885
+Amecameca de Juarez,México,19.75,-99.1711,1484353804
+Tecozautla,Hidalgo,20.5333,-99.6333,1484766704
+Cuauhtemoc,Colima,19.3281,-103.6028,1484009228
+Tequila,Jalisco,20.8828,-103.8367,1484763049
+Tancitaro,Michoacán,19.3378,-102.3625,1484944433
+Rodolfo Sanchez Taboada,Baja California,31.7958,-116.5911,1484409365
+Champoton,Campeche,19.35,-90.7167,1484959684
+Juanacatlan,Jalisco,20.5,-103.1667,1484068541
+Capulhuac,México,19.2,-99.4667,1484829703
+Jonuta,Tabasco,18.0833,-92.1333,1484712409
+Escuinapa,Sinaloa,22.835,-105.778,1484295544
+Tepetlaoxtoc,México,19.5731,-98.8203,1484140193
+Magdalena de Kino,Sonora,30.6167,-111.05,1484799240
+Temascaltepec de Gonzalez,México,19.0433,-100.0414,1484114407
+Huatabampo,Sonora,27.05,-109.4167,1484335657
+San Salvador El Seco,Puebla,19.1333,-97.65,1484262709
+Ometepec,Guerrero,16.6833,-98.4167,1484936909
+Nanchital de Lazaro Cardenas del Rio,Veracruz,18.0667,-94.4167,1484990539
+Villa Donato Guerra,México,19.3083,-100.1422,1484701900
+Xalatlaco,México,19.1811,-99.4164,1484277337
+Escarcega,Campeche,18.6067,-90.7344,1484800970
+Juchitepec,México,19.0997,-98.8792,1484007934
+San Rafael,Veracruz,20.1889,-96.8658,1484480100
+Actopan,Hidalgo,20.2681,-98.9442,1484903562
+Zapotiltic,Jalisco,19.627,-103.417,1484535008
+San Fernando,Tamaulipas,24.8504,-98.16,1484830415
+Ozumba,México,19.0392,-98.7936,1484458348
+Teapa,Tabasco,17.5483,-92.953,1484729901
+Reforma,Chiapas,17.8658,-93.1472,1484640217
+Ursulo Galvan,Veracruz,19.4,-96.3,1484748710
+Abasolo,Guanajuato,20.45,-101.517,1484064616
+Las Rosas,Chiapas,16.3667,-92.35,1484866090
+Navolato,Sinaloa,24.7656,-107.7019,1484515879
+San Salvador,Hidalgo,20.2833,-99.0153,1484680072
+Ciudad Sahagun,Hidalgo,19.7714,-98.5803,1484112463
+Cuitzeo del Porvenir,Michoacán,19.9686,-101.1394,1484718007
+Zacoalco de Torres,Jalisco,20.2333,-103.5833,1484373793
+Metepec,México,19.2511,-99.6047,1484782768
+Tetela de Ocampo,Puebla,19.8167,-97.8,1484794888
+Xochistlahuaca,Guerrero,16.7914,-98.2419,1484003499
+San Felipe Jalapa de Diaz,Oaxaca,18.0667,-96.5333,1484014091
+Nochistlan de Mejia,Zacatecas,21.3642,-102.8464,1484761642
+Quiroga,Michoacán,19.6667,-101.5333,1484553970
+Villa Luvianos,México,18.92,-100.2983,1484500757
+Motozintla,Chiapas,15.3632,-92.2477,1484046011
+Tlalpujahua de Rayon,Michoacán,19.805,-100.1744,1484026388
+Soledad de Doblado,Veracruz,19.05,-96.4167,1484007805
+Atlautla,México,19.0,-98.7167,1484312852
+San Juan Guichicovi,Oaxaca,16.9667,-95.0833,1484056048
+Contla,Tlaxcala,19.3333,-98.1667,1484059318
+Apaxco de Ocampo,México,19.98,-99.17,1484505240
+Los Reyes de Juarez,Puebla,18.9458,-97.8058,1484937929
+Tuxpan,Michoacán,19.5661,-100.4625,1484359180
+Jalpan,Querétaro,21.2167,-99.4725,1484214957
+Castanos,Coahuila,26.7833,-101.4167,1484472740
+Cueramaro,Guanajuato,20.6258,-101.6739,1484743958
+Tepehuacan de Guerrero,Hidalgo,21.0131,-98.8442,1484592101
+San Agustin Tlaxiaca,Hidalgo,20.1144,-98.8867,1484185265
+Villagran,Guanajuato,20.517,-100.983,1484237393
+Amatepec,México,18.65,-100.15,1484058749
+Nava,Coahuila,28.4214,-100.7675,1484120104
+Atitalaquia,Hidalgo,20.0583,-99.2208,1484827281
+Acapetahua,Chiapas,15.2333,-92.7667,1484664781
+Paracuaro,Michoacán,19.1467,-102.2194,1484022148
+Tlaxcoapan,Hidalgo,20.0953,-99.22,1484883241
+Miacatlan,Morelos,18.7722,-99.3547,1484216622
+Cuajinicuilapa,Guerrero,16.4717,-98.4153,1484450188
+Tecolutla,Veracruz,20.4797,-97.01,1484719991
+Jaltenco,México,19.7511,-99.0931,1484504076
+Tehuipango,Veracruz,18.5167,-97.05,1484975485
+Santiago Papasquiaro,Durango,25.0439,-105.4192,1484176278
+Tuxpan,Nayarit,21.8667,-105.45,1484274950
+Huaquechula,Puebla,18.7667,-98.55,1484461466
+Puerto Escondido,Oaxaca,15.8619,-97.0672,1484644846
+Ciudad Altamirano,Guerrero,18.3472,-100.6531,1484274706
+Tecax,Yucatán,20.2019,-89.2881,1484782521
+Felipe Carrillo Puerto,Quintana Roo,19.5786,-88.0453,1484914299
+Huejotzingo,Puebla,19.1619,-98.4064,1484474577
+Arriaga,Chiapas,16.2361,-93.8995,1484409481
+Pinal de Amoles,Querétaro,21.1342,-99.4586,1484630305
+Acatlan,Jalisco,20.2333,-103.5333,1484516807
+Atlatlahucan,Morelos,18.935,-98.9,1484784884
+Miahuatlan,Puebla,18.5667,-97.4333,1484649521
+Alamo,Veracruz,20.9167,-97.675,1484161565
+Santa Maria Tonameca,Oaxaca,15.7458,-96.5472,1484998049
+Sultepec,México,18.8667,-99.95,1484381977
+Hunucma,Yucatán,21.0153,-89.8744,1484800428
+Ixhuatlancillo,Veracruz,18.9,-97.15,1484287458
+Jamay,Jalisco,20.29,-102.71,1484510036
+Zumpango del Rio,Guerrero,17.65,-99.5,1484750477
+Carlos A. Carrillo,Veracruz,18.3667,-95.75,1484904757
+Amatan,Chiapas,17.3667,-92.8167,1484881501
+San Agustin Loxicha,Oaxaca,16.0167,-96.6167,1484509506
+Las Margaritas,Chiapas,16.3159,-91.9816,1484007496
+El Salto,Durango,23.7823,-105.3585,1484463833
+Santa Maria Colotepec,Oaxaca,15.8833,-96.9167,1484824159
+Manlio Fabio Altamirano,Veracruz,19.1003,-96.3411,1484739619
+Tantoyuca,Veracruz,21.35,-98.2333,1484205572
+San Miguel Ocotenco,Puebla,19.0666,-97.4525,1484616570
+Ciudad Serdan,Puebla,18.9833,-97.45,1484943496
+Atotonilco el Grande,Hidalgo,20.6667,-98.6667,1484578299
+San Juan Cotzocon,Oaxaca,17.1667,-95.7833,1484942065
+Cazones de Herrera,Veracruz,20.7044,-97.3106,1484665627
+Ahualulco de Mercado,Jalisco,20.6167,-103.8667,1484137273
+Tecali,Puebla,18.9,-97.9667,1484035847
+San Martin Totolan,Michoacán,20.0833,-102.65,1484775588
+Cerro Azul,Veracruz,21.192,-97.7409,1484720981
+General Panfilo Natera,Zacatecas,22.665,-102.1097,1484662922
+San Buenaventura,Coahuila,27.0625,-101.5467,1484100040
+Doctor Mora,Guanajuato,21.1425,-100.3192,1484329164
+La Higuerita,Jalisco,19.5,-104.8833,1484769959
+La Huerta,Jalisco,19.4833,-104.65,1484366583
+Ozuluama de Mascarenas,Veracruz,21.6667,-97.85,1484230951
+Motul,Yucatán,21.1667,-89.4667,1484505595
+Tototlan,Jalisco,20.5333,-102.7833,1484885208
+Soledad Atzompa,Veracruz,18.75,-97.15,1484642759
+Tamiahua,Veracruz,21.2788,-97.4462,1484634319
+Rafael Delgado,Veracruz,18.8167,-97.0667,1484016423
+Oxkutzkab,Yucatán,20.3056,-89.4183,1484480343
+Frontera,Tabasco,18.5336,-92.6469,1484000527
+Malinalco,México,18.9483,-99.4947,1484454332
+Naolinco de Victoria,Veracruz,19.6367,-96.8525,1484476201
+San Miguel de Papasquiaro,Durango,24.8304,-105.34,1484521716
+Ojinaga,Chihuahua,29.5644,-104.4164,1484761843
+Tequixquiac,México,19.9097,-99.1417,1484908675
+Yahualica de Gonzalez Gallo,Jalisco,21.1781,-102.886,1484271707
+Tlacolula de Matamoros,Oaxaca,16.9542,-96.4792,1484076523
+Huautla,Hidalgo,21.0308,-98.285,1484208664
+Emiliano Zapata,Tabasco,17.7446,-91.7651,1484000334
+Puente Nacional,Veracruz,19.3333,-96.4833,1484974086
+Acatlan,Hidalgo,20.1444,-98.4383,1484652472
+Yahualica,Hidalgo,20.9531,-98.38,1484980764
+Huejucar,Jalisco,22.3591,-103.2108,1484409823
+Ocatlan,Tlaxcala,19.3167,-98.2283,1484715262
+Chalchihuitan,Chiapas,17.0333,-92.6167,1484099582
+Axapusco,México,19.7194,-98.7972,1484580584
+Pueblo Juarez,Chiapas,17.7,-93.2,1484543161
+Charo,Michoacán,19.75,-101.05,1484226531
+Magdalena,Jalisco,20.9167,-103.95,1484476169
+Chapa de Mota,México,19.8144,-99.5269,1484616953
+Comalapa,Chiapas,15.65,-92.15,1484741837
+Tixtla de Guerrero,Guerrero,17.5667,-99.4,1484176714
+Sombrerete,Zacatecas,23.6333,-103.6397,1484007324
+Ocotlan de Morelos,Oaxaca,16.7914,-96.675,1484002311
+Tlaltenango de Sanchez Roman,Zacatecas,21.7815,-103.3059,1484361545
+Cuilapan de Guerrero,Oaxaca,16.9972,-96.7817,1484534441
+Chapala,Jalisco,20.2961,-103.1911,1484011650
+Acatic,Jalisco,20.7803,-102.91,1484373854
+San Martin de las Piramides,México,19.7333,-98.8167,1484000182
+Allende,Coahuila,28.3333,-100.8333,1484737223
+Fortin de las Flores,Veracruz,18.9,-97.0,1484333240
+Tapalpa,Jalisco,19.9445,-103.7585,1484280338
+Degollado,Jalisco,20.4667,-102.15,1484086425
+Valle Nacional,Oaxaca,17.7667,-96.3,1484002795
+Nogales,Veracruz,18.8167,-97.1667,1484829832
+Chocaman,Veracruz,19.0167,-97.0333,1484659925
+Altepexi,Puebla,18.35,-97.3167,1484498863
+Xoxocotla,Morelos,18.685,-99.2439,1484012470
+Texistepec,Veracruz,17.9,-94.8167,1484059063
+Chachahuantla,Puebla,20.2756,-98.1503,1484829941
+Pahuatlan de Valle,Puebla,20.2756,-98.1503,1484531785
+Tepexi de Rodriguez,Puebla,18.5833,-97.9333,1484944836
+Chapulhuacan,Hidalgo,21.1547,-98.9039,1484747290
+La Resolana,Jalisco,19.3425,-104.2878,1484556709
+Atoyac de Alvarez,Guerrero,17.2,-100.4333,1484657833
+Colonia General Felipe Angeles,Durango,23.9167,-104.6,1484647102
+Santa Maria Chilchotla,Oaxaca,18.2333,-96.8167,1484011437
+Las Vigas de Ramirez,Veracruz,19.6369,-97.1,1484942376
+Cruz Grande,Guerrero,16.7333,-99.1333,1484074616
+Huanimaro,Guanajuato,20.3675,-101.4969,1484325445
+Villa Hidalgo,Jalisco,21.6667,-102.6,1484702656
+Naranjos,Veracruz,21.3509,-97.6866,1484227797
+Teopisca,Chiapas,16.55,-92.5,1484755833
+Castillo de Teayo,Veracruz,20.75,-97.6333,1484628176
+Etzatlan,Jalisco,20.7667,-104.1333,1484334826
+Cardenas,San Luis Potosí,22.01,-99.652,1484956696
+Ciudad Miguel Aleman,Tamaulipas,26.4003,-99.0253,1484636817
+El Arenal,Jalisco,20.7,-103.6167,1484970184
+Comapa,Veracruz,19.165,-96.8856,1484768761
+Zimatlan de Alvarez,Oaxaca,16.8667,-96.7833,1484989287
+Tepetlixpa,México,19.0006,-98.8178,1484018861
+Peto,Yucatán,20.1256,-88.9214,1484013411
+Atlapexco,Hidalgo,21.0221,-98.3543,1484002302
+Calvillo,Aguascalientes,21.85,-102.7167,1484468847
+Colotlan,Jalisco,22.2,-103.3,1484670065
+Chiconcuac,México,19.55,-98.9,1484345092
+Lerdo de Tejada,Veracruz,18.638,-95.5085,1484800186
+San Juan Zitlaltepec,México,19.7167,-99.05,1484882196
+Hidalgotitlan,Veracruz,17.7833,-94.6333,1484749313
+Suchiapa,Chiapas,16.6181,-93.0942,1484835465
+Jesus Maria,Jalisco,20.6078,-102.2242,1484588871
+Cardonal,Hidalgo,20.6167,-99.1167,1484936605
+Jose Cardel,Veracruz,19.3667,-96.3667,1484785956
+Mapastepec,Chiapas,15.4411,-92.8916,1484386885
+Texcaltitlan,México,18.9297,-99.9372,1484685265
+Puerto Morelos,Quintana Roo,20.8536,-86.8753,1484801229
+Jamiltepec,Oaxaca,16.2833,-97.8167,1484035155
+Senguio,Michoacán,19.7328,-100.3522,1484696811
+Cacahoatan,Chiapas,14.9898,-92.1681,1484991082
+Cheran,Michoacán,19.6833,-101.95,1484573730
+Ixtlahuacan del Rio,Jalisco,20.8667,-103.25,1484528814
+Cotija de la Paz,Michoacán,19.8167,-102.6833,1484490839
+Santa Ana Jilotzingo,México,19.4,-99.2333,1484669477
+Vista Hermosa de Negrete,Michoacán,20.2717,-102.4749,1484012642
+San Ignacio Cerro Gordo,Jalisco,20.7333,-102.517,1484086194
+Ajacuba,Hidalgo,20.0833,-99.1167,1484132188
+Huehuetla,Puebla,20.1075,-97.6233,1484001118
+Tlalnelhuayocan,Veracruz,19.5667,-96.9667,1484053667
+Santa Catarina Juquila,Oaxaca,16.2379,-97.2914,1484108848
+Aldama,Chihuahua,28.8386,-105.9111,1484197521
+Asuncion Nochixtlan,Oaxaca,17.45,-97.2167,1484302009
+Santa Cruz Zenzontepec,Oaxaca,16.5333,-97.5,1484403131
+Coalcoman de Vazquez Pallares,Michoacán,18.7833,-103.1667,1484699271
+San Blas Atempa,Oaxaca,16.3167,-95.2167,1484548529
+Cuautitlan,Jalisco,19.4522,-104.3583,1484216677
+Filomeno Mata,Veracruz,20.2,-97.7,1484846261
+Santiago Ixcuintla,Nayarit,21.811,-105.2079,1484248235
+San Jose Tenango,Oaxaca,18.15,-96.7333,1484844323
+Pijijiapan,Chiapas,15.6833,-93.2167,1484994799
+San Sebastian Tutla,Oaxaca,17.0667,-96.6667,1484827954
+Xochiatipan de Castillo,Hidalgo,20.8333,-98.285,1484688256
+Tlacoachistlahuaca,Guerrero,16.7833,-98.2,1484268442
+Cuquio,Jalisco,20.929,-103.0229,1484426156
+Union de San Antonio,Jalisco,21.128,-102.006,1484001030
+Zapotlan del Rey,Jalisco,20.4674,-102.9248,1484897349
+San Bartolo Tutotepec,Hidalgo,20.4,-98.2,1484290508
+Villa Corona,Jalisco,20.3989,-103.6889,1484753179
+Mazapil,Zacatecas,24.6383,-101.5553,1484135363
+Benito Juarez,Veracruz,20.8833,-98.2,1484526354
+Amacuzac,Morelos,18.6,-99.37,1484072402
+Palau,Coahuila,27.9167,-101.4167,1484142037
+Santos Reyes Nopala,Oaxaca,16.1,-97.15,1484003311
+Compostela,Nayarit,21.2333,-104.9,1484966833
+Moloacan,Veracruz,17.9833,-94.35,1484009613
+Tenango de Doria,Hidalgo,20.3356,-98.2267,1484595420
+Ciudad Hidalgo,Chiapas,14.6792,-92.1497,1484360693
+Pajapan,Veracruz,18.2667,-94.6833,1484768670
+Tepatlaxco,Puebla,19.0667,-97.9667,1484624680
+Tasquillo,Hidalgo,20.6167,-99.25,1484659098
+Totutla,Veracruz,19.2167,-96.9667,1484089486
+Ziracuaretiro,Michoacán,19.4333,-101.9167,1484827641
+Mecayapan,Veracruz,18.2167,-94.8333,1484664655
+Tecolotlan,Jalisco,20.1,-103.8333,1484469850
+Ejutla de Crespo,Oaxaca,16.5672,-96.7308,1484630380
+Pisaflores,Hidalgo,21.1933,-99.005,1484698691
+Calnali,Hidalgo,20.9,-98.5833,1484014196
+Tlahuelilpan,Hidalgo,20.1297,-99.2286,1484009996
+San Felipe,Baja California,31.0275,-114.8353,1484794463
+Ignacio de la Llave,Veracruz,18.6618,-95.9721,1484700629
+Penamiller,Querétaro,21.0519,-99.815,1484158047
+Dzitbalche,Campeche,20.3167,-90.05,1484603562
+San Juan Lalana,Oaxaca,17.4667,-95.8833,1484819599
+Guadalupe Victoria,Puebla,19.2833,-97.3333,1484527511
+Zinapecuaro,Michoacán,19.8603,-100.8275,1484739166
+Alfajayucan,Hidalgo,20.4,-99.35,1484991912
+Salinas de Hidalgo,San Luis Potosí,22.628,-101.7156,1484391139
+San Julian,Jalisco,21.0167,-102.1667,1484367855
+Nuevo San Juan Parangaricutiro,Michoacán,19.4,-102.1333,1484014213
+Chinampa de Gorostiza,Veracruz,21.3667,-97.7333,1484006654
+Jilotepec,Veracruz,19.6097,-96.9511,1484009524
+Jalpa de Mendez,Tabasco,18.1764,-93.0631,1484768624
+Epitacio Huerta,Michoacán,20.1348,-100.2934,1484920890
+Santa Maria Petapa,Oaxaca,16.8167,-95.1167,1484501021
+Ciudad Guadalupe Victoria,Durango,24.4497,-104.1225,1484654052
+Zapotlan de Juarez,Hidalgo,19.9667,-98.85,1484756389
+Juchique de Ferrer,Veracruz,19.8333,-96.7,1484992524
+Cosautlan,Veracruz,19.3333,-96.9833,1484430709
+Oteapan,Veracruz,18.0,-94.6667,1484584805
+Santa Anita,Sonora,30.5118,-111.1234,1484530456
+Izamal,Yucatán,20.9314,-89.0178,1484567751
+Venustiano Carranza,Chiapas,16.3294,-92.5625,1484842496
+Santiago Tulantepec,Hidalgo,20.0397,-98.3575,1484221851
+Ciudad de Huitzuco,Guerrero,18.3,-99.35,1484912284
+El Rosario,Sinaloa,22.9922,-105.8572,1484373649
+Vicente Guerrero,Durango,23.75,-103.9833,1484862775
+Tlaltetela,Veracruz,19.3167,-96.9,1484184075
+Ixhuatlan del Sureste,Veracruz,18.017,-94.38,1484815291
+San Jacinto Amilpas,Oaxaca,17.1,-96.7667,1484813830
+La Cruz,Sinaloa,23.9214,-106.8919,1484243519
+Capilla de Guadalupe,Jalisco,20.65,-102.8,1484606464
+Tatahuicapan,Veracruz,18.25,-94.7667,1484402622
+Cosio,Aguascalientes,22.3667,-102.3,1484671410
+Cochoapa el Grande,Guerrero,17.2,-98.45,1484944228
+Madera,Chihuahua,29.19,-108.1414,1484958144
+Ayutla de los Libres,Guerrero,16.9,-99.2167,1484235149
+Tanhuato de Guerrero,Michoacán,20.2819,-102.3319,1484151979
+Amatitan,Jalisco,20.835,-103.731,1484634445
+Erongaricuaro,Michoacán,19.5833,-101.7167,1484012062
+Chilcuautla,Hidalgo,20.3333,-99.2333,1484513510
+Pureparo de Echaiz,Michoacán,19.9,-102.0167,1484222410
+Pichucalco,Chiapas,17.5086,-93.1178,1484558261
+Huasca de Ocampo,Hidalgo,20.2028,-98.5758,1484063344
+San Pedro Tapanatepec,Oaxaca,16.3667,-94.2,1484844084
+Zacualpan,México,18.7197,-99.78,1484694794
+Nopala de Villagran,Hidalgo,20.2528,-99.6433,1484987808
+Huitzilan,Puebla,19.9667,-97.6833,1484786185
+La Magdalena Tlaltelulco,Tlaxcala,19.2667,-98.2,1484446251
+El Arenal,Hidalgo,20.2167,-98.9167,1484425146
+Zozocolco de Hidalgo,Veracruz,20.1333,-97.5833,1484949093
+Acala,Chiapas,16.5533,-92.8069,1484788928
+Talpa de Allende,Jalisco,20.3806,-104.8222,1484030876
+Calkini,Campeche,20.3667,-90.05,1484329915
+Tecuala,Nayarit,22.4004,-105.46,1484955369
+Coquimatlan,Colima,19.2038,-103.8086,1484193381
+Chemax,Yucatán,20.655,-87.9372,1484867017
+San Mateo del Mar,Oaxaca,16.2,-94.9833,1484954959
+Huixcolotla,Puebla,18.9147,-97.7736,1484332923
+Cerritos,San Luis Potosí,22.4275,-100.2783,1484001904
+Tepetzintla,Veracruz,21.1658,-97.8511,1484385901
+Loreto,Baja California Sur,26.0128,-111.3433,1484876942
+Tlaxcala,Tlaxcala,19.3125,-98.24,1484359502
+Mineral del Monte,Hidalgo,20.1333,-98.6667,1484360018
+Tecpan de Galeana,Guerrero,17.25,-100.6833,1484708548
+Zontecomatlan de Lopez y Fuentes,Veracruz,20.7667,-98.3333,1484226245
+Guachochi,Chihuahua,26.8194,-107.07,1484533430
+Tlayacapan,Morelos,18.9556,-98.9811,1484386110
+Chiconquiaco,Veracruz,19.75,-96.8167,1484230887
+Nacozari Viejo,Sonora,30.3833,-109.6833,1484108383
+Churumuco de Morelos,Michoacán,18.6167,-101.6333,1484004930
+Santa Rosalia,Baja California Sur,27.3389,-112.2669,1484950775
+Tianguistengo,Hidalgo,20.7278,-98.6289,1484089008
+San Andres Timilpan,México,19.8667,-99.7333,1484996853
+El Barrio de la Soledad,Oaxaca,16.8,-95.1167,1484814019
+Cienega de Flores,Nuevo León,25.95,-100.1833,1484782533
+Bochil,Chiapas,16.9833,-92.9167,1484171114
+Almoloya de Alquisiras,México,18.85,-99.85,1484855096
+Juan Aldama,Zacatecas,24.291,-103.394,1484898373
+Grajales,Puebla,19.25,-97.7833,1484035729
+Santiago Jocotepec,Oaxaca,17.5833,-95.8833,1484170405
+Tepoztlan,Morelos,18.9853,-99.0997,1484948191
+Charcas,San Luis Potosí,23.1261,-101.1128,1484233945
+Santiago de Anaya,Hidalgo,20.3844,-98.9647,1484062040
+Ezequiel Montes,Querétaro,20.6667,-99.8833,1484350732
+Mazamitla,Jalisco,19.9153,-103.0208,1484841788
+Polotitlan de la Ilustracion,México,20.2253,-99.8154,1484418357
+Union de Tula,Jalisco,19.957,-104.268,1484444951
+Tampamolon Corona,San Luis Potosí,21.5667,-98.8167,1484813967
+San Pedro Pochutla,Oaxaca,15.7476,-96.4666,1484815091
+Aldama,Tamaulipas,22.9194,-98.0736,1484835121
+Guerrero Negro,Baja California Sur,27.9589,-114.0561,1484879768
+Tapilula,Chiapas,17.25,-93.0167,1484306142
+Ixcatepec,Veracruz,21.2333,-98.0,1484476969
+Chalma,Veracruz,21.2167,-98.4,1484039198
+Ilamatlan,Veracruz,20.7833,-98.45,1484806313
+Ascension,Chihuahua,31.0928,-107.9964,1484659928
+Villa Union,Sinaloa,23.1883,-106.2158,1484310975
+Cadereyta,Querétaro,20.7,-99.8167,1484014263
+Soyaniquilpan,México,19.9892,-99.4361,1484895616
+Miahuatlan,Puebla,18.2833,-97.2833,1484451722
+Villa Juarez,Sonora,27.1278,-109.8426,1484467834
+Santa Maria Jalapa del Marques,Oaxaca,16.4401,-95.4434,1484628971
+Singuilucan,Hidalgo,19.9675,-98.5178,1484024966
+Mazatlan Villa de Flores,Oaxaca,18.0167,-96.9167,1484893255
+La Crucecita,Oaxaca,15.7753,-96.1425,1484030886
+Tezontepec,Hidalgo,19.8833,-98.8167,1484120923
+Nacozari de Garcia,Sonora,30.3736,-109.6864,1484112459
+Chapantongo,Hidalgo,20.2833,-99.4,1484970395
+Valparaiso,Zacatecas,22.7667,-103.5667,1484885454
+Ayutla,Jalisco,20.0333,-104.4333,1484883782
+Nuevo Ideal,Durango,24.8875,-105.0728,1484407989
+Vicente Guerrero,Baja California,30.7264,-115.9903,1484159343
+Santa Cruz Amilpas,Oaxaca,17.0667,-96.6833,1484665188
+Pueblo Nuevo,Chiapas,17.15,-92.9,1484535200
+Huazalingo,Hidalgo,21.8156,-98.5078,1484658282
+Santiago Amoltepec,Oaxaca,16.6167,-97.5,1484936827
+Isla Mujeres,Quintana Roo,21.2333,-86.7333,1484856745
+Maxcanu,Yucatán,20.5833,-89.9833,1484052886
+Xalpatlahuac,Guerrero,17.3333,-98.65,1484565396
+El Fuerte,Sinaloa,26.4214,-108.62,1484950387
+Progreso,Baja California,32.5842,-115.5842,1484104363
+Bacalar,Quintana Roo,18.6769,-88.3953,1484206678
+Villa Sola de Vega,Oaxaca,16.5125,-96.9806,1484921061
+Eloxochitlan,Puebla,18.5088,-96.9227,1484796183
+Santa Ana Maya,Michoacán,20.0,-101.0167,1484004080
+San Pedro Jicayan,Oaxaca,16.4167,-97.9833,1484151830
+Santa Ana,Sonora,30.5406,-111.1205,1484002576
+San Miguel Xoxtla,Puebla,19.1833,-98.3,1484989109
+Mecatlan,Veracruz,20.2135,-97.6574,1484471160
+Emiliano Zapata,Hidalgo,19.65,-98.55,1484053015
+Pantepec,Chiapas,17.1833,-93.05,1484062153
+Tzintzuntzan,Michoacán,19.6283,-101.5789,1484799786
+Juchipila,Zacatecas,21.4103,-103.1175,1484952476
+Cuichapa,Veracruz,18.7667,-96.8667,1484015677
+Tempoal de Sanchez,Veracruz,21.5167,-98.3833,1484011037
+La Magdalena Chichicaspa,México,19.4181,-99.3228,1484790302
+Cocotitlan,México,19.2167,-98.85,1484387908
+Citlaltepec,Veracruz,21.3366,-97.8784,1484014771
+Yecuatla,Veracruz,19.8667,-96.7833,1484655912
+San Carlos Yautepec,Oaxaca,16.5,-96.1,1484274293
+Jacala,Hidalgo,21.0053,-99.1719,1484527650
+El Parral,Chiapas,16.3662,-93.0067,1484888163
+Panuco de Coronado,Durango,24.5392,-104.3253,1484921271
+Ojuelos de Jalisco,Jalisco,21.8667,-101.5833,1484896796
+Jaltenango,Chiapas,15.8725,-92.725,1484260963
+San Fernando,Chiapas,16.8717,-93.2063,1484329029
+Abasolo,Tamaulipas,24.0559,-98.3733,1484491384
+San Juan del Rio del Centauro del Norte,Durango,24.7667,-104.4667,1484372713
+Chiautla de Tapia,Puebla,18.3,-98.6039,1484573116
+Jose Maria Morelos,Quintana Roo,19.75,-88.7,1484872600
+Tolcayuca,Hidalgo,19.95,-98.9167,1484403443
+San Nicolas de los Ranchos,Puebla,19.0667,-98.4833,1484875886
+Angel R. Cabada,Veracruz,18.5969,-95.4453,1484667573
+San Pedro Ixcatlan,Oaxaca,18.15,-96.5,1484497758
+Mixtla de Altamirano,Veracruz,18.6,-97.0,1484655126
+Tlachichilco,Veracruz,20.6217,-98.1994,1484876244
+Tepetzintla,Puebla,19.9667,-97.8333,1484778629
+Santa Cruz Itundujia,Oaxaca,16.8667,-97.65,1484802157
+Jiquipilas,Chiapas,16.6677,-93.6505,1484691049
+Huandacareo,Michoacán,19.9906,-101.275,1484155611
+Espita,Yucatán,21.0128,-88.3047,1484433962
+Epazoyucan,Hidalgo,20.0177,-98.6361,1484543443
+Olintla,Puebla,20.1,-97.6833,1484975870
+Muna,Yucatán,20.48,-89.72,1484692677
+Sonoita,Sonora,31.8614,-112.8544,1484032951
+Ajijic,Jalisco,20.3,-103.2833,1484699000
+Tlacolulan,Veracruz,19.6667,-97.0,1484260116
+Zaragoza,Veracruz,17.9531,-94.6414,1484089470
+Villa Purificacion,Jalisco,19.8167,-104.7333,1484448303
+Amatenango del Valle,Chiapas,16.5167,-92.4,1484632903
+San Pablo Atlazalpan,México,19.2172,-98.909,1484948651
+Anenecuilco,Morelos,18.7781,-98.985,1484003918
+Gonzalez,Tamaulipas,22.8281,-98.4306,1484835501
+Temamatla,México,19.2028,-98.87,1484069603
+Pihuamo,Jalisco,18.95,-103.167,1484848423
+Zaragoza,Coahuila,28.4869,-100.9175,1484517254
+Jamapa,Veracruz,19.0411,-96.2411,1484467927
+Candelaria,Campeche,18.1835,-91.0463,1484925669
+Mineral de Angangueo,Michoacán,19.6167,-100.2833,1484121857
+San Luis de La Loma,Guerrero,17.2714,-100.8911,1484748421
+La Trinitaria,Chiapas,16.1203,-92.0408,1484842922
+Joquicingo,México,19.0556,-99.5467,1484561507
+Tezoatlan de Segura y Luna,Oaxaca,17.65,-97.8167,1484633645
+Saucillo,Chihuahua,28.0333,-105.2833,1484590798
+Tixkokob,Yucatán,21.0022,-89.3936,1484306905
+Acanceh,Yucatán,20.8133,-89.4524,1484170180
+Alamos,Sonora,27.0275,-108.94,1484052656
+Nacajuca,Tabasco,18.1692,-93.0197,1484698021
+Texcatepec,Veracruz,20.5833,-98.3667,1484575888
+Soyalo,Chiapas,16.9333,-92.9833,1484806087
+Villa Corzo,Chiapas,16.1848,-93.2677,1484270020
+Totolapan,Morelos,18.9869,-98.9197,1484963370
+Emiliano Zapata,Chiapas,16.5392,-92.8967,1484357716
+Villa Union,Durango,23.9667,-104.0333,1484796365
+Santa Barbara,Chihuahua,26.8133,-105.8203,1484698134
+Santa Catarina Ayotzingo,México,19.2647,-98.8975,1484300687
+Almoloya,Hidalgo,19.7,-98.4,1484494575
+Escuintla,Chiapas,15.3333,-92.6333,1484508510
+Altamirano,Chiapas,16.7361,-92.0389,1484175446
+San Ignacio Cohuirimpo,Sonora,27.05,-109.4167,1484235510
+Tenango del Aire,México,19.1575,-98.8581,1484285163
+San Juanito,Chihuahua,27.97,-107.6003,1484053518
+Tierra Colorada,Guerrero,17.1656,-99.5264,1484516715
+Candelaria Loxicha,Oaxaca,15.9167,-96.4833,1484628588
+Coacoatzintla,Veracruz,19.65,-96.9333,1484309288
+Las Veredas,Baja California Sur,23.1503,-109.7061,1484096349
+Santiago Tangamandapio,Michoacán,19.95,-102.4333,1484550468
+Teotlaltzingo,Puebla,19.2333,-98.4833,1484592594
+Santiago Suchilquitongo,Oaxaca,17.25,-96.8833,1484773312
+Cuatro Cienegas de Carranza,Coahuila,26.9861,-102.0664,1484012996
+Molango,Hidalgo,20.7844,-98.7175,1484340479
+Coroneo,Guanajuato,20.1333,-100.3333,1484498281
+Canatlan,Durango,24.52,-104.78,1484221814
+Teocuitatlan de Corona,Jalisco,20.0167,-103.1833,1484087600
+Agua Blanca Iturbide,Hidalgo,20.35,-98.35,1484459690
+Hecelchakan,Campeche,20.1667,-90.1333,1484700920
+Jaltocan,Hidalgo,21.1333,-98.5383,1484352270
+Chavinda,Michoacán,20.0167,-102.45,1484159886
+Minatitlan,Colima,19.3833,-104.05,1484015579
+Tlalixtac de Cabrera,Oaxaca,17.0667,-96.65,1484878072
+Tetela del Volcan,Morelos,18.8931,-98.7297,1484343325
+San Blas,Nayarit,21.5397,-105.2856,1484142814
+Akil,Yucatán,20.2656,-89.3478,1484515773
+Mexicaltzingo,México,19.2092,-99.5858,1484468778
+Cuapiaxtla de Madero,Puebla,18.9167,-97.8167,1484036948
+La Mision,Hidalgo,21.1,-99.1333,1484006779
+Chichihualco,Guerrero,17.655,-99.674,1484534707
+Ciudad Tula,Tamaulipas,23.0,-99.72,1484516323
+Parilla,Tabasco,17.9119,-92.9175,1484710529
+Benemerito,Chiapas,16.5158,-90.6533,1484889494
+Huejuquilla el Alto,Jalisco,22.6256,-103.8964,1484316706
+Pajacuaran,Michoacán,20.1178,-102.5667,1484044014
+San Pedro Huamelula,Oaxaca,16.0167,-95.6667,1484802560
+Platon Sanchez,Veracruz,21.2833,-98.3667,1484193492
+China,Nuevo León,25.7033,-99.2365,1484761202
+San Nicolas Buenos Aires,Puebla,19.1667,-97.55,1484819352
+Tzucacab,Yucatán,20.0708,-89.0506,1484877569
+Anahuac,Chihuahua,28.48,-106.7442,1484106283
+Cuicatlan,Oaxaca,17.8,-96.95,1484474019
+Coycoyan de las Flores,Guerrero,17.2667,-98.2667,1484976767
+Jilotlan de los Dolores,Jalisco,19.3719,-103.0193,1484298923
+Huichapan,Hidalgo,20.3733,-99.6489,1484054165
+Cuencame de Ceniceros,Durango,24.8667,-103.7,1484919654
+Tekit,Yucatán,20.5322,-89.3314,1484351882
+Etchojoa,Sonora,26.8667,-109.65,1484867357
+Ciudad Cuauhtemoc,Veracruz,21.2833,-98.3667,1484666501
+Santo Tomas de los Platanos,México,19.1817,-100.2589,1484531949
+Pueblo Viejo,México,19.179,-100.2984,1484057384
+San Gregorio Atzompa,Puebla,19.0224,-98.3445,1484057992
+Tepetlan,Veracruz,19.6667,-96.8,1484555085
+Comala,Colima,19.3208,-103.7603,1484287042
+Tila,Chiapas,17.3006,-92.4259,1484810186
+Xicotencatl,Tamaulipas,22.9958,-98.9447,1484154416
+Villa Aldama,Veracruz,19.65,-97.2333,1484465521
+Cuervos,Baja California,32.6308,-114.8569,1484208189
+Lototla,Hidalgo,20.8392,-98.7178,1484853725
+Chanal,Chiapas,16.6601,-92.2599,1484260225
+Tlahualilo de Zaragoza,Durango,26.1083,-103.4431,1484368402
+Seybaplaya,Campeche,19.6394,-90.6883,1484152587
+Caracuaro,Michoacán,19.0167,-101.1261,1484202131
+Santa Maria Jacatepec,Oaxaca,17.85,-96.2,1484347290
+San Juanito de Escobedo,Jalisco,20.8,-104.0,1484130165
+Halacho,Yucatán,20.4764,-90.0819,1484161200
+Zacualpan de Amilpas,Morelos,18.7836,-98.7594,1484800291
+Ecatzingo,México,18.95,-98.75,1484003696
+San Agustin de las Juntas,Oaxaca,17.0,-96.7167,1484607979
+Doctor Arroyo,Nuevo León,23.6667,-100.1667,1484096942
+San Pablo Huixtepec,Oaxaca,16.8167,-96.7833,1484156599
+Choix,Sinaloa,26.7086,-108.3253,1484806011
+Mascota,Jalisco,20.5235,-104.7886,1484002814
+Tlahuiltepa,Hidalgo,20.9233,-98.9497,1484500392
+Otumba,México,19.6989,-98.7572,1484001484
+Santa Isabel Cholula,Puebla,19.0,-98.3667,1484043974
+Santa Maria Ajoloapan,México,19.9692,-99.0353,1484494406
+Santo Domingo Petapa,Oaxaca,16.8167,-95.1333,1484805593
+Tecoh,Yucatán,20.7419,-89.4744,1484904738
+Ciudad Insurgentes,Baja California Sur,25.2617,-111.7744,1484354076
+Amatlan de los Reyes,Veracruz,18.8457,-96.9149,1484683104
+Coatetelco,Morelos,18.7294,-99.3256,1484016853
+San Pedro Atocpan,Ciudad de México,19.2006,-99.0492,1484981405
+Ixtapa Zihuatanejo,Guerrero,17.6367,-101.5514,1484980277
+Chilon,Chiapas,17.1055,-92.2715,1484706149
+San Francisco Ixhuatan,Oaxaca,16.35,-94.4833,1484223318
+Higuera de Zaragoza,Sinaloa,25.95,-109.2833,1484471294
+Tepechitlan,Zacatecas,21.6667,-103.3333,1484570912
+Lerma,Campeche,19.8,-90.6,1484035396
+Tzitzio,Michoacán,19.5856,-100.9231,1484231858
+San Francisco Chimalpa,México,19.4419,-99.3419,1484599969
+Almoloya del Rio,México,19.1586,-99.4886,1484000708
+La Junta,Chihuahua,28.4778,-107.3317,1484913185
+Santa Maria del Tule,Oaxaca,17.0465,-96.6363,1484488353
+Santa Cruz Atizapan,México,19.1756,-99.4886,1484011710
+San Jose de Gracia,Aguascalientes,22.15,-102.4167,1484004442
+Tepetitlan,Hidalgo,20.1842,-99.3808,1484277299
+Tataltepec de Valdes,Oaxaca,16.3064,-97.5461,1484294949
+Ayapango,México,19.1264,-98.8028,1484009067
+Santa Maria Xadani,Oaxaca,16.3667,-95.0167,1484494009
+San Juan Ixcaquixtla,Puebla,18.45,-97.8167,1484614314
+Hostotipaquillo,Jalisco,21.2167,-103.85,1484387476
+Lazaro Cardenas,Chihuahua,28.3897,-105.6236,1484739082
+Monte Escobedo,Zacatecas,22.3,-103.5667,1484046726
+Teotitlan,Oaxaca,18.1333,-97.0833,1484390294
+Pantelho,Chiapas,17.0,-92.4833,1484849992
+Rayon,México,19.1481,-99.58,1484649015
+Vicam Pueblo,Sonora,27.6422,-110.2897,1484237374
+El Espinal,Oaxaca,16.4906,-95.0444,1484603133
+Ahumada,Chihuahua,30.6186,-106.5122,1484004336
+Coahuitlan,Veracruz,20.2667,-97.7167,1484959001
+San Pedro Ixtlahuaca,Oaxaca,17.05,-96.8167,1484203625
+Ayotoxco de Guerrero,Puebla,20.1,-97.4,1484789379
+Bacobampo,Sonora,26.9889,-109.65,1484112118
+Hueyotlipan,Puebla,18.9,-97.85,1484584311
+San Pablo Villa de Mitla,Oaxaca,16.917,-96.4,1484844758
+San Quintin,Baja California,30.4837,-115.95,1484693426
+Esperanza,Sonora,27.58,-109.9298,1484729183
+Nautla,Veracruz,20.2167,-96.7833,1484174535
+Altata,Sinaloa,24.6333,-107.9167,1484699069
+Mazatan,Sonora,29.0167,-110.1333,1484350756
+Punta Prieta,Baja California,28.9289,-114.1556,1484583029
