@@ -23,8 +23,9 @@ let formationLayer = L.layerGroup();
 let flashLayer = L.layerGroup();
 let rectangleLayer = L.layerGroup();
 let teardropLayer = L.layerGroup();
+let defaultLayer = L.layerGroup();
 
-// Custom control for earthquakes and tectonic plates
+// Define Overlays
 let overlays = {
     "Light Shape": lightLayer,
     "Sphere Shape": sphereLayer,
@@ -48,7 +49,8 @@ let overlays = {
     "Formation Shape": formationLayer,
     "Flash Shape": flashLayer,
     "Rectangle Shape": rectangleLayer,
-    "Teardrop Shape": teardropLayer
+    "Teardrop Shape": teardropLayer,
+    "Defaulf Layer": defaultLayer
 };
 
 // Define tile layers
@@ -96,9 +98,10 @@ L.control.layers(baseLayers,overlays).addTo(myMap);
 const markerSize = 15;
 
 // Fetch GeoJSON data for UFO sightings
-d3.json('/RESOURCES/ufo_sightings_with_coordinates.json').then(function(data) {
+d3.json('RESOURCES/ufo_sightings_with_coordinates.json').then(function(data) {
     data.forEach(function(sighting) {
         const { Lat, Lng, Shape, Summary, Link } = sighting;
+        // console.log("Avistamiento:", sighting);
 
         // Create a circle marker with a larger size
         const marker = L.circleMarker([Lat, Lng], {
@@ -108,6 +111,7 @@ d3.json('/RESOURCES/ufo_sightings_with_coordinates.json').then(function(data) {
             weight: 1,
             opacity: 1,
             fillOpacity: 0.8
+
         }).bindPopup(`
             <strong>Shape:</strong> ${Shape}<br>
             <strong>Summary:</strong> ${Summary}<br>
@@ -115,15 +119,19 @@ d3.json('/RESOURCES/ufo_sightings_with_coordinates.json').then(function(data) {
         `);
 
         // Add the marker to the appropriate layer based on UFO shape
-        if (Shape in overlays) {
+        if (Shape+' Shape' in overlays) {
             overlays[Shape + ' Shape'].addLayer(marker);
+            overlays['Defaulf Layer'].addLayer(marker);
         } else {
             defaultLayer.addLayer(marker);
+            console.log('no entra')
         }
     });
 }).catch(function(error) {
     console.error('Error fetching or processing GeoJSON data:', error);
 });
+
+// console.log(lightLayer)
 
 // Function to get marker radius based on magnitude
 // function getRadius(magnitude) {
