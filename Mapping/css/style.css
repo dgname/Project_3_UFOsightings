@@ -1,0 +1,12 @@
+/* Reset default margin and padding */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Set height of map container and make sure HTML and body take full height */
+#map,
+body,
+html {
+  height: 100%;
+}
