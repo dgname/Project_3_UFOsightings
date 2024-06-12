@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Leaflet Step-1</title>
+  <title>UFO Sightings in Mexico</title>
 
   <!-- D3 -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -15,14 +15,45 @@
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
     crossorigin="" />
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
   <!-- Our CSS -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
 
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 p-5 text-center bg-light">
+        <h1>UFOS Sightings in Mexico</h1>
+        <p>Use the interactive charts below to explore the dataset</p>
+        <p>
+          Este es un párrafo con un 
+          <a href="http://127.0.0.1:5500/Mapping/page2.html">enlace</a> 
+          que te llevará a la página de Mapping.
+      </p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+        <br>
+      <div class="col-md-9">
+        <div id="map" style="width: 800px; height: 500px; margin: 0 auto;"></div> 
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+  </div>
+
+
   <!-- The div that holds our map -->
-  <div id="map"></div>
+
 
   <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -31,7 +62,7 @@
   <!-- D3 JavaScript -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <!-- Our JavaScript -->
-  <script type="text/javascript" src="js/logic.js"></script>
+  <script type="text/javascript" src="js/logic_map.js"></script>
 </body>
 
 </html>
