@@ -1,4 +1,3 @@
-
 // Define layers
 let lightLayer = L.layerGroup();
 let sphereLayer = L.layerGroup();
@@ -50,60 +49,79 @@ let overlays = {
     "Flash Shape": flashLayer,
     "Rectangle Shape": rectangleLayer,
     "Teardrop Shape": teardropLayer,
-    "Defaulf Layer": defaultLayer
+    "Sightings Per City": defaultLayer
 };
 
-// Define tile layers
+// Define tile layers (same as before)
 let grayscaleLayer = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a>',
-    id: 'mapbox/light-v10', // Grayscale style
+    id: 'mapbox/light-v10',
     tileSize: 512,
     zoomOffset: -1,
-    accessToken: 'pk.eyJ1IjoiZGduYW1lIiwiYSI6ImNseDk3djltdDJvZWYybHBvZm8ycDNjYmgifQ.MVi4dHGFLb5Du360HqicFA' 
+    accessToken: 'pk.eyJ1IjoiZGduYW1lIiwiYSI6ImNseDk3djltdDJvZWYybHBvZm8ycDNjYmgifQ.MVi4dHGFLb5Du360HqicFA'
 });
 
 let outdoorsLayer = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a>',
-    id: 'mapbox/outdoors-v11', // Outdoors style
+    id: 'mapbox/outdoors-v11',
     tileSize: 512,
     zoomOffset: -1,
-    accessToken: 'pk.eyJ1IjoiZGduYW1lIiwiYSI6ImNseDk3djltdDJvZWYybHBvZm8ycDNjYmgifQ.MVi4dHGFLb5Du360HqicFA' 
+    accessToken: 'pk.eyJ1IjoiZGduYW1lIiwiYSI6ImNseDk3djltdDJvZWYybHBvZm8ycDNjYmgifQ.MVi4dHGFLb5Du360HqicFA'
 });
 
 let satelliteLayer = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a>',
-    id: 'mapbox/satellite-v9', // Satellite style
+    id: 'mapbox/satellite-v9',
     tileSize: 512,
     zoomOffset: -1,
-    accessToken: 'pk.eyJ1IjoiZGduYW1lIiwiYSI6ImNseDk3djltdDJvZWYybHBvZm8ycDNjYmgifQ.MVi4dHGFLb5Du360HqicFA' 
+    accessToken: 'pk.eyJ1IjoiZGduYW1lIiwiYSI6ImNseDk3djltdDJvZWYybHBvZm8ycDNjYmgifQ.MVi4dHGFLb5Du360HqicFA'
 });
 
-// Adding layers control
+// Adding layers control (same as before)
 let baseLayers = {
     "Grayscale Map": grayscaleLayer,
     "Outdoors Map": outdoorsLayer,
     "Satellite Map": satelliteLayer
 };
 
-// Creating the map object
+// Creating the map object (same as before)
 let myMap = L.map("map", {
     center: [23.634501, -102.552784],
     zoom: 6,
     layers: [satelliteLayer] // Setting satellite layer as default
 });
 
-L.control.layers(baseLayers,overlays).addTo(myMap);
+L.control.layers(baseLayers, overlays).addTo(myMap);
 
-// Define a larger icon size for markers
+// Define a larger icon size for markers (unchanged)
 const markerSize = 15;
+
+// Create an empty object to store sightings counts by city
+let sightingsByCity = {};
 
 // Fetch GeoJSON data for UFO sightings
 d3.json('RESOURCES/ufo_sightings_with_coordinates.json').then(function(data) {
+    // Process each sighting
     data.forEach(function(sighting) {
-        const { Lat, Lng, Shape, Summary, Link } = sighting;
-        // console.log("Avistamiento:", sighting);
+        const { Lat, Lng, Shape, City, Summary, Link } = sighting;
 
-        // Create a circle marker with a larger size
+        // Create a unique key for each city
+        let cityKey = `${City}-${Lat}-${Lng}`;
+
+        // Initialize the city's entry if it doesn't exist
+        if (!sightingsByCity[cityKey]) {
+            sightingsByCity[cityKey] = {
+                count: 0,
+                Lat: Lat,
+                Lng: Lng,
+                City: City
+            };
+        }
+
+        // Increment the count for this city
+        sightingsByCity[cityKey].count += 1;
+
+        // Create a circle marker with a larger size based on Shape
         const marker = L.circleMarker([Lat, Lng], {
             radius: markerSize,
             fillColor: "red",
@@ -112,71 +130,43 @@ d3.json('RESOURCES/ufo_sightings_with_coordinates.json').then(function(data) {
             opacity: 1,
             fillOpacity: 0.8
 
-        }).bindPopup(`
-            <strong>Shape:</strong> ${Shape}<br>
-            <strong>Summary:</strong> ${Summary}<br>
-            <a href="${Link}" target="_blank">More Information</a>
-        `);
+        }).bindPopup(`<strong>Shape:</strong> ${Shape}<br>
+                      <strong>Summary:</strong> ${Summary}<br>
+                      <a href="${Link}" target="_blank">More Information</a>`);
 
         // Add the marker to the appropriate layer based on UFO shape
-        if (Shape+' Shape' in overlays) {
+        if (Shape + ' Shape' in overlays) {
             overlays[Shape + ' Shape'].addLayer(marker);
-            overlays['Defaulf Layer'].addLayer(marker);
-        } else {
-            defaultLayer.addLayer(marker);
-            console.log('no entra')
         }
     });
+
+    // Create markers for each city with the count of sightings
+    Object.keys(sightingsByCity).forEach(cityKey => {
+        const cityData = sightingsByCity[cityKey];
+        
+        // Calculate the radius based on the number of sightings (e.g., multiply by 4 for scaling)
+        const radius = getRadius(cityData.count/2);
+
+        // Create a circle marker for the city
+        const cityMarker = L.circleMarker([cityData.Lat, cityData.Lng], {
+            radius: radius,
+            fillColor: "yellow",
+            color: "#000",
+            weight: 1,
+            opacity: 1,
+            fillOpacity: 0.8
+        }).bindPopup(`<strong>City:</strong> ${cityData.City}<br>
+                      <strong>Number of Sightings:</strong> ${cityData.count}`);
+
+        // Add this marker to the default layer or any other layer you prefer
+        defaultLayer.addLayer(cityMarker);
+    });
+
 }).catch(function(error) {
     console.error('Error fetching or processing GeoJSON data:', error);
 });
 
-// console.log(lightLayer)
-
-// Function to get marker radius based on magnitude
-// function getRadius(magnitude) {
-//     return magnitude ? magnitude * 4 : 1;
-// }
-
-// Create legend control and specify its position
-// let legend = L.control({ position: 'bottomright' });
-
-// // Function to add legend to the map
-// legend.onAdd = function(map) {
-//     // Create a div element to act as a container for our legend. This container will hold the visual representation of the legend
-//     // Using a <div> element allows us to manipulate its appearance and content using HTML and CSS, providing flexibility in how we design and style the legend
-//     let div = L.DomUtil.create('div', 'legend'); //creates a new <div> element with the class name "legend" and assigns it to the variable div
-
-//     // Define legend content directly based on depth conditions
-//     div.innerHTML =
-//         '<i style="background:#FF0000"></i> 90+<br>' +
-//         '<i style="background:#FF4500"></i> 70&ndash;90<br>' +
-//         '<i style="background:#FFA500"></i> 50&ndash;70<br>' +
-//         '<i style="background:#FFD700"></i> 30&ndash;50<br>' +
-//         '<i style="background:#ADFF2F"></i> 10&ndash;30<br>' +
-//         '<i style="background:#00FF00"></i> 0&ndash;10';
-
-//     return div; // Return the div element
-// };
-
-// // Add legend to the map
-// legend.addTo(myMap);
-
-
-
-// // URL to fetch the tectonic plates GeoJSON data
-// let platesLink = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json";
-
-// // Fetching the tectonic plates GeoJSON data.
-// // It is not required to explicitly specify how to fetch the coordinates. 
-// // Leaflet's L.geoJson() function handles that based on the GeoJSON structure provided in platesData.
-// d3.json(platesLink).then(function(platesData) {
-//     // Add tectonic plates layer to the map
-//     L.geoJson(platesData, {
-//         style: {
-//             color: "#FFA500", // Orange color for tectonic plate boundaries
-//             weight: 2, // Line weight
-//             opacity: 0.8 // Line opacity
-//         }
-//     }).addTo(platesLayer);
-// });
+// Function to get marker radius based on the count of sightings
+function getRadius(sightings) {
+    return sightings ? sightings * 4 : 1; // Adjust the multiplier for appropriate scaling
+}
