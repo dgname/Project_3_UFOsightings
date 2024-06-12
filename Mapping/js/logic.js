@@ -52,12 +52,13 @@ let overlays = {
     "Sightings Per City": defaultLayer
 };
 
+//set a personalized icon with a image from the web
 
 const pinIcon = L.icon({
-    iconUrl: 'https://cdn-icons-png.flaticon.com/512/10928/10928949.png', // Ruta a tu icono
-    iconSize: [32, 32], // Tamaño del icono
-    iconAnchor: [16, 32], // Punto del icono que corresponde a la ubicación del marcador
-    popupAnchor: [0, -32], // Punto desde el que se abrirá el popup
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/10928/10928949.png',
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32],
 });
 
 // Define tile layers (same as before)
@@ -131,7 +132,7 @@ d3.json('RESOURCES/ufo_sightings_with_coordinates.json').then(function(data) {
 
         // Create a circle marker with a larger size based on Shape
         const marker = L.marker([Lat, Lng], {
-            icon: pinIcon // Usar el icono personalizado en lugar del marcador circular
+            icon: pinIcon 
         }).bindPopup(`<strong>Shape:</strong> ${Shape}<br>
                       <strong>Summary:</strong> ${Summary}<br>
                       <a href="${Link}" target="_blank">More Information</a>`);
