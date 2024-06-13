@@ -10,3 +10,11 @@ body,
 html {
   height: 100%;
 }
+
+/* Ensure the container takes the full height of the viewport minus any paddings/margins */
+.container {
+  min-height: 200vh; /* Ensure it covers the full height of the viewport */
+  display: flex;
+  flex-direction: column;
+}
+
