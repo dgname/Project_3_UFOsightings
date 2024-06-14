@@ -1,0 +1,1 @@
+CONNSTRING='postgresql+psycopg://postgres:postgres@localhost/ufo_sightings'

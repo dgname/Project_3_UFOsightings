@@ -1,5 +1,6 @@
 [
     {
+        "Occurred":1715739600000,
         "City":"Mazatlan",
         "State_x":"Sinaloa",
         "Country":"Mexico",
@@ -10,6 +11,7 @@
         "Lng":-106.4167
     },
     {
+        "Occurred":1611478800000,
         "City":"Mazatlan",
         "State_x":"Sinaloa",
         "Country":"Mexico",
@@ -20,6 +22,7 @@
         "Lng":-106.4167
     },
     {
+        "Occurred":1546983000000,
         "City":"Mazatlan",
         "State_x":"Sinaloa",
         "Country":"Mexico",
@@ -30,6 +33,7 @@
         "Lng":-106.4167
     },
     {
+        "Occurred":1007241000000,
         "City":"Mazatlan",
         "State_x":"Sinaloa",
         "Country":"Mexico",
@@ -40,6 +44,7 @@
         "Lng":-106.4167
     },
     {
+        "Occurred":957729600000,
         "City":"Mazatlan",
         "State_x":"Sinaloa",
         "Country":"Mexico",
@@ -50,6 +55,7 @@
         "Lng":-106.4167
     },
     {
+        "Occurred":1715547480000,
         "City":"Leon de los Aldama",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -60,6 +66,7 @@
         "Lng":-101.6833
     },
     {
+        "Occurred":1455228000000,
         "City":"Leon de los Aldama",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -70,6 +77,7 @@
         "Lng":-101.6833
     },
     {
+        "Occurred":1421532000000,
         "City":"Leon de los Aldama",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -80,6 +88,7 @@
         "Lng":-101.6833
     },
     {
+        "Occurred":1151357400000,
         "City":"Leon de los Aldama",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -90,6 +99,7 @@
         "Lng":-101.6833
     },
     {
+        "Occurred":1110930300000,
         "City":"Leon de los Aldama",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -100,6 +110,7 @@
         "Lng":-101.6833
     },
     {
+        "Occurred":1715290680000,
         "City":"San Jose del Cabo",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -110,6 +121,7 @@
         "Lng":-109.7081
     },
     {
+        "Occurred":1420068600000,
         "City":"San Jose del Cabo",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -120,6 +132,7 @@
         "Lng":-109.7081
     },
     {
+        "Occurred":1397937600000,
         "City":"San Jose del Cabo",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -130,6 +143,7 @@
         "Lng":-109.7081
     },
     {
+        "Occurred":1362513600000,
         "City":"San Jose del Cabo",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -140,6 +154,7 @@
         "Lng":-109.7081
     },
     {
+        "Occurred":1345662000000,
         "City":"San Jose del Cabo",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -150,6 +165,7 @@
         "Lng":-109.7081
     },
     {
+        "Occurred":1322605800000,
         "City":"San Jose del Cabo",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -160,6 +176,7 @@
         "Lng":-109.7081
     },
     {
+        "Occurred":1319236200000,
         "City":"San Jose del Cabo",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -170,6 +187,7 @@
         "Lng":-109.7081
     },
     {
+        "Occurred":1224963000000,
         "City":"San Jose del Cabo",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -180,6 +198,7 @@
         "Lng":-109.7081
     },
     {
+        "Occurred":1198382400000,
         "City":"San Jose del Cabo",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -190,6 +209,7 @@
         "Lng":-109.7081
     },
     {
+        "Occurred":976302000000,
         "City":"San Jose del Cabo",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -200,6 +220,7 @@
         "Lng":-109.7081
     },
     {
+        "Occurred":1708976400000,
         "City":"Xico",
         "State_x":"Veracruz",
         "Country":"Mexico",
@@ -210,6 +231,7 @@
         "Lng":-97.0
     },
     {
+        "Occurred":1647128100000,
         "City":"Xico",
         "State_x":"Veracruz",
         "Country":"Mexico",
@@ -220,6 +242,7 @@
         "Lng":-97.0
     },
     {
+        "Occurred":1279639800000,
         "City":"Xico",
         "State_x":"Veracruz",
         "Country":"Mexico",
@@ -230,6 +253,7 @@
         "Lng":-97.0
     },
     {
+        "Occurred":1229040000000,
         "City":"Xico",
         "State_x":"Veracruz",
         "Country":"Mexico",
@@ -240,6 +264,7 @@
         "Lng":-97.0
     },
     {
+        "Occurred":1124028120000,
         "City":"Xico",
         "State_x":"Veracruz",
         "Country":"Mexico",
@@ -250,6 +275,7 @@
         "Lng":-97.0
     },
     {
+        "Occurred":810066600000,
         "City":"Xico",
         "State_x":"Veracruz",
         "Country":"Mexico",
@@ -260,6 +286,7 @@
         "Lng":-97.0
     },
     {
+        "Occurred":1703796540000,
         "City":"Acapulco de Juarez",
         "State_x":"Guerrero",
         "Country":"Mexico",
@@ -270,6 +297,7 @@
         "Lng":-99.8825
     },
     {
+        "Occurred":1419908400000,
         "City":"Acapulco de Juarez",
         "State_x":"Guerrero",
         "Country":"Mexico",
@@ -280,6 +308,7 @@
         "Lng":-99.8825
     },
     {
+        "Occurred":1132516800000,
         "City":"Acapulco de Juarez",
         "State_x":"Guerrero",
         "Country":"Mexico",
@@ -290,6 +319,7 @@
         "Lng":-99.8825
     },
     {
+        "Occurred":1701635100000,
         "City":"San Cristobal",
         "State_x":"Chiapas",
         "Country":"Mexico",
@@ -300,6 +330,7 @@
         "Lng":-92.6383
     },
     {
+        "Occurred":1701131400000,
         "City":"Tenancingo",
         "State_x":"M\u00e9xico",
         "Country":"Mexico",
@@ -310,6 +341,7 @@
         "Lng":-99.5906
     },
     {
+        "Occurred":1667553300000,
         "City":"Tenancingo",
         "State_x":"M\u00e9xico",
         "Country":"Mexico",
@@ -320,6 +352,7 @@
         "Lng":-99.5906
     },
     {
+        "Occurred":1649368140000,
         "City":"Tenancingo",
         "State_x":"M\u00e9xico",
         "Country":"Mexico",
@@ -330,6 +363,7 @@
         "Lng":-99.5906
     },
     {
+        "Occurred":null,
         "City":"Tenancingo",
         "State_x":"M\u00e9xico",
         "Country":null,
@@ -340,6 +374,7 @@
         "Lng":-99.5906
     },
     {
+        "Occurred":null,
         "City":"Tenancingo",
         "State_x":"M\u00e9xico",
         "Country":null,
@@ -350,6 +385,7 @@
         "Lng":-99.5906
     },
     {
+        "Occurred":1151884800000,
         "City":"Tenancingo",
         "State_x":"M\u00e9xico",
         "Country":"Mexico",
@@ -360,6 +396,7 @@
         "Lng":-99.5906
     },
     {
+        "Occurred":null,
         "City":"Tenancingo",
         "State_x":"M\u00e9xico",
         "Country":null,
@@ -370,6 +407,7 @@
         "Lng":-99.5906
     },
     {
+        "Occurred":946688400000,
         "City":"Tenancingo",
         "State_x":"M\u00e9xico",
         "Country":"Mexico",
@@ -380,6 +418,7 @@
         "Lng":-99.5906
     },
     {
+        "Occurred":1698874200000,
         "City":"Tlaxcala",
         "State_x":"Tlaxcala",
         "Country":"Mexico",
@@ -390,6 +429,7 @@
         "Lng":-98.24
     },
     {
+        "Occurred":1697144100000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -400,6 +440,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1697144100000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -410,6 +451,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1677966240000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -420,6 +462,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1675807200000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -430,6 +473,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1661753700000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -440,6 +484,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1650407400000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -450,6 +495,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1420758780000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -460,6 +506,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1270494000000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -470,6 +517,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1237148100000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -480,6 +528,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1237055400000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -490,6 +539,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1201917180000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -500,6 +550,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1177196400000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -510,6 +561,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1172957400000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -520,6 +572,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1170795600000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -530,6 +583,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1166646000000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -540,6 +594,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1154991600000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -550,6 +605,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1135800000000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -560,6 +616,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1093374900000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -570,6 +627,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1090285200000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -580,6 +638,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1086469200000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -590,6 +649,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1085533200000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -600,6 +660,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1082253600000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -610,6 +671,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1076619600000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -620,6 +682,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1069866000000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -630,6 +693,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1054591200000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -640,6 +704,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1051146000000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -650,6 +715,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1040702400000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -660,6 +726,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1029220200000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -670,6 +737,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":992214000000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -680,6 +748,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":987540300000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -690,6 +759,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":987458400000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -700,6 +770,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":961887600000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -710,6 +781,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":959387400000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -720,6 +792,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":946940400000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -730,6 +803,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":920239200000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -740,6 +814,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":915919200000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -750,6 +825,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":843262200000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -760,6 +836,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":840060000000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -770,6 +847,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":790552800000,
         "City":"Cancun",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -780,6 +858,7 @@
         "Lng":-86.8475
     },
     {
+        "Occurred":1694987460000,
         "City":"Monterrey",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -790,6 +869,7 @@
         "Lng":-100.3
     },
     {
+        "Occurred":1614549000000,
         "City":"Monterrey",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -800,6 +880,7 @@
         "Lng":-100.3
     },
     {
+        "Occurred":1387920600000,
         "City":"Monterrey",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -810,6 +891,7 @@
         "Lng":-100.3
     },
     {
+        "Occurred":1358035800000,
         "City":"Monterrey",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -820,6 +902,7 @@
         "Lng":-100.3
     },
     {
+        "Occurred":1322979900000,
         "City":"Monterrey",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -830,6 +913,7 @@
         "Lng":-100.3
     },
     {
+        "Occurred":1180098000000,
         "City":"Monterrey",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -840,6 +924,7 @@
         "Lng":-100.3
     },
     {
+        "Occurred":1149690960000,
         "City":"Monterrey",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -850,6 +935,7 @@
         "Lng":-100.3
     },
     {
+        "Occurred":1104562260000,
         "City":"Monterrey",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -860,6 +946,7 @@
         "Lng":-100.3
     },
     {
+        "Occurred":1104539400000,
         "City":"Monterrey",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -870,6 +957,7 @@
         "Lng":-100.3
     },
     {
+        "Occurred":1103929200000,
         "City":"Monterrey",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -880,6 +968,7 @@
         "Lng":-100.3
     },
     {
+        "Occurred":1087333200000,
         "City":"Monterrey",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -890,6 +979,7 @@
         "Lng":-100.3
     },
     {
+        "Occurred":1038963600000,
         "City":"Monterrey",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -900,6 +990,7 @@
         "Lng":-100.3
     },
     {
+        "Occurred":1692962700000,
         "City":"El Pueblito",
         "State_x":"Quer\u00e9taro",
         "Country":"Mexico",
@@ -910,6 +1001,7 @@
         "Lng":-100.4414
     },
     {
+        "Occurred":1685903400000,
         "City":"Playas de Rosarito",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -920,6 +1012,7 @@
         "Lng":-117.0561
     },
     {
+        "Occurred":1614620580000,
         "City":"Playas de Rosarito",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -930,6 +1023,7 @@
         "Lng":-117.0561
     },
     {
+        "Occurred":1581796200000,
         "City":"Playas de Rosarito",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -940,6 +1034,7 @@
         "Lng":-117.0561
     },
     {
+        "Occurred":1088564400000,
         "City":"Playas de Rosarito",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -950,6 +1045,7 @@
         "Lng":-117.0561
     },
     {
+        "Occurred":1683668280000,
         "City":"Tecate",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -960,6 +1056,7 @@
         "Lng":-116.6403
     },
     {
+        "Occurred":1677527640000,
         "City":"Cozumel",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -970,6 +1067,7 @@
         "Lng":-86.9493
     },
     {
+        "Occurred":1415640600000,
         "City":"Cozumel",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -980,6 +1078,7 @@
         "Lng":-86.9493
     },
     {
+        "Occurred":1116848700000,
         "City":"Cozumel",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -990,6 +1089,7 @@
         "Lng":-86.9493
     },
     {
+        "Occurred":1106038800000,
         "City":"Cozumel",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -1000,6 +1100,7 @@
         "Lng":-86.9493
     },
     {
+        "Occurred":1059696900000,
         "City":"Cozumel",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -1010,6 +1111,7 @@
         "Lng":-86.9493
     },
     {
+        "Occurred":1676920800000,
         "City":"Oaxaca",
         "State_x":"Oaxaca",
         "Country":"Mexico",
@@ -1020,6 +1122,7 @@
         "Lng":-96.7253
     },
     {
+        "Occurred":1638822600000,
         "City":"Oaxaca",
         "State_x":"Oaxaca",
         "Country":"Mexico",
@@ -1030,6 +1133,7 @@
         "Lng":-96.7253
     },
     {
+        "Occurred":1638820800000,
         "City":"Oaxaca",
         "State_x":"Oaxaca",
         "Country":"Mexico",
@@ -1040,6 +1144,7 @@
         "Lng":-96.7253
     },
     {
+        "Occurred":1635451200000,
         "City":"Oaxaca",
         "State_x":"Oaxaca",
         "Country":"Mexico",
@@ -1050,6 +1155,7 @@
         "Lng":-96.7253
     },
     {
+        "Occurred":1635451200000,
         "City":"Oaxaca",
         "State_x":"Oaxaca",
         "Country":"Mexico",
@@ -1060,6 +1166,7 @@
         "Lng":-96.7253
     },
     {
+        "Occurred":1675362960000,
         "City":"Merida",
         "State_x":"Yucat\u00e1n",
         "Country":"Mexico",
@@ -1070,6 +1177,7 @@
         "Lng":-89.62
     },
     {
+        "Occurred":1657282440000,
         "City":"Merida",
         "State_x":"Yucat\u00e1n",
         "Country":"Mexico",
@@ -1080,6 +1188,7 @@
         "Lng":-89.62
     },
     {
+        "Occurred":1147209300000,
         "City":"Merida",
         "State_x":"Yucat\u00e1n",
         "Country":"Mexico",
@@ -1090,6 +1199,7 @@
         "Lng":-89.62
     },
     {
+        "Occurred":1136070000000,
         "City":"Merida",
         "State_x":"Yucat\u00e1n",
         "Country":"Mexico",
@@ -1100,6 +1210,7 @@
         "Lng":-89.62
     },
     {
+        "Occurred":1668386880000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1110,6 +1221,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1603685820000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1120,6 +1232,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1524205800000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1130,6 +1243,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1386331800000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1140,6 +1254,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1367442000000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1150,6 +1265,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1346548800000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1160,6 +1276,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1332265680000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1170,6 +1287,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1328831100000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1180,6 +1298,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1327176000000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1190,6 +1309,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1242421200000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1200,6 +1320,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1202503200000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1210,6 +1331,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1202075100000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1220,6 +1342,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1175938920000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1230,6 +1353,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1175938200000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1240,6 +1364,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1167613200000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1250,6 +1375,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1138905000000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1260,6 +1386,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1138834200000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1270,6 +1397,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1133552220000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1280,6 +1408,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1101236400000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1290,6 +1419,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1100117460000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1300,6 +1430,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1099971000000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1310,6 +1441,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1084831200000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1320,6 +1452,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1066867800000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1330,6 +1463,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1030912200000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1340,6 +1474,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":920581200000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1350,6 +1485,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":832118400000,
         "City":"Puerto Vallarta",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -1360,6 +1496,7 @@
         "Lng":-105.2222
     },
     {
+        "Occurred":1667503320000,
         "City":"Madera",
         "State_x":"Chihuahua",
         "Country":"Mexico",
@@ -1370,6 +1507,7 @@
         "Lng":-108.1414
     },
     {
+        "Occurred":1660015800000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1380,6 +1518,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1569785700000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1390,6 +1529,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1506054600000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1400,6 +1540,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1414235400000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1410,6 +1551,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1387920600000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1420,6 +1562,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1384022700000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1430,6 +1573,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1324678500000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1440,6 +1584,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1319931600000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1450,6 +1595,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1173464520000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1460,6 +1606,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1156091640000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1470,6 +1617,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1130868000000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1480,6 +1628,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1083012600000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1490,6 +1639,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1074335700000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1500,6 +1650,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1063473900000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1510,6 +1661,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1063473000000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1520,6 +1672,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1063207800000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1530,6 +1683,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1030280400000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1540,6 +1694,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1030216500000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1550,6 +1705,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1009843800000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1560,6 +1716,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":950655600000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1570,6 +1727,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":915849540000,
         "City":"Tijuana",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -1580,6 +1738,7 @@
         "Lng":-117.0333
     },
     {
+        "Occurred":1654466040000,
         "City":"Cabo San Lucas",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -1590,6 +1749,7 @@
         "Lng":-109.9156
     },
     {
+        "Occurred":1639567800000,
         "City":"Cabo San Lucas",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -1600,6 +1760,7 @@
         "Lng":-109.9156
     },
     {
+        "Occurred":1609579800000,
         "City":"Cabo San Lucas",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -1610,6 +1771,7 @@
         "Lng":-109.9156
     },
     {
+        "Occurred":1419465600000,
         "City":"Cabo San Lucas",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -1620,6 +1782,7 @@
         "Lng":-109.9156
     },
     {
+        "Occurred":1373670000000,
         "City":"Cabo San Lucas",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -1630,6 +1793,7 @@
         "Lng":-109.9156
     },
     {
+        "Occurred":1366481700000,
         "City":"Cabo San Lucas",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -1640,6 +1804,7 @@
         "Lng":-109.9156
     },
     {
+        "Occurred":1316385000000,
         "City":"Cabo San Lucas",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -1650,6 +1815,7 @@
         "Lng":-109.9156
     },
     {
+        "Occurred":1300492020000,
         "City":"Cabo San Lucas",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -1660,6 +1826,7 @@
         "Lng":-109.9156
     },
     {
+        "Occurred":1141660800000,
         "City":"Cabo San Lucas",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -1670,6 +1837,7 @@
         "Lng":-109.9156
     },
     {
+        "Occurred":1137712500000,
         "City":"Cabo San Lucas",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -1680,6 +1848,7 @@
         "Lng":-109.9156
     },
     {
+        "Occurred":1091484900000,
         "City":"Cabo San Lucas",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -1690,6 +1859,7 @@
         "Lng":-109.9156
     },
     {
+        "Occurred":1652044800000,
         "City":"Tulum",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -1700,6 +1870,7 @@
         "Lng":-87.4658
     },
     {
+        "Occurred":1600475160000,
         "City":"Tulum",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -1710,6 +1881,7 @@
         "Lng":-87.4658
     },
     {
+        "Occurred":1594249800000,
         "City":"Tulum",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -1720,6 +1892,7 @@
         "Lng":-87.4658
     },
     {
+        "Occurred":1403150400000,
         "City":"Tulum",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -1730,6 +1903,7 @@
         "Lng":-87.4658
     },
     {
+        "Occurred":1273924800000,
         "City":"Tulum",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -1740,6 +1914,7 @@
         "Lng":-87.4658
     },
     {
+        "Occurred":1145793960000,
         "City":"Tulum",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -1750,6 +1925,7 @@
         "Lng":-87.4658
     },
     {
+        "Occurred":1107518400000,
         "City":"Tulum",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -1760,6 +1936,7 @@
         "Lng":-87.4658
     },
     {
+        "Occurred":1107439200000,
         "City":"Tulum",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -1770,6 +1947,7 @@
         "Lng":-87.4658
     },
     {
+        "Occurred":1070398800000,
         "City":"Tulum",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -1780,6 +1958,7 @@
         "Lng":-87.4658
     },
     {
+        "Occurred":1645624800000,
         "City":"Guadalupe",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -1790,6 +1969,7 @@
         "Lng":-100.2597
     },
     {
+        "Occurred":1645624800000,
         "City":"Guadalupe",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -1800,6 +1980,7 @@
         "Lng":-102.5078
     },
     {
+        "Occurred":1642701600000,
         "City":"Huejotzingo",
         "State_x":"Puebla",
         "Country":"Mexico",
@@ -1810,6 +1991,7 @@
         "Lng":-98.4064
     },
     {
+        "Occurred":1640988000000,
         "City":"Cuautla",
         "State_x":"Morelos",
         "Country":"Mexico",
@@ -1820,6 +2002,7 @@
         "Lng":-98.95
     },
     {
+        "Occurred":1640349780000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -1830,6 +2013,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1606935600000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"mexico",
@@ -1840,6 +2024,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1592089200000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -1850,6 +2035,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1505916000000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -1860,6 +2046,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1475366400000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -1870,6 +2057,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1420894800000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -1880,6 +2068,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1396731600000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -1890,6 +2079,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1390528800000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -1900,6 +2090,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1382699460000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -1910,6 +2101,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1325742780000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -1920,6 +2112,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1308679200000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -1930,6 +2123,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1303329600000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -1940,6 +2134,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1239361200000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -1950,6 +2145,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1229859000000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -1960,6 +2156,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1199916000000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -1970,6 +2167,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1199585400000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -1980,6 +2178,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1192939200000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -1990,6 +2189,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1188671400000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2000,6 +2200,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1182376200000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2010,6 +2211,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1165363200000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2020,6 +2222,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1115499600000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2030,6 +2233,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1114275600000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2040,6 +2244,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1094389200000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2050,6 +2255,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1090792800000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2060,6 +2266,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1088978400000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2070,6 +2277,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1083715200000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2080,6 +2288,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1083703680000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2090,6 +2299,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1078527600000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2100,6 +2310,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1078518300000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2110,6 +2321,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1078506000000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2120,6 +2332,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1078444800000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2130,6 +2343,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1078444800000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2140,6 +2354,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1048206180000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2150,6 +2365,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1038085740000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2160,6 +2376,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1037345400000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2170,6 +2387,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1021222800000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2180,6 +2398,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":961077600000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2190,6 +2409,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":924143400000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2200,6 +2420,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":583714800000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2210,6 +2431,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":461457000000,
         "City":"Mexico City",
         "State_x":"Ciudad de M\u00e9xico",
         "Country":"Mexico",
@@ -2220,6 +2442,7 @@
         "Lng":-99.1333
     },
     {
+        "Occurred":1637521200000,
         "City":"Ciudad Madero",
         "State_x":"Tamaulipas",
         "Country":"Mexico",
@@ -2230,6 +2453,7 @@
         "Lng":-97.8333
     },
     {
+        "Occurred":1622174400000,
         "City":"San Nicolas de los Garza",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -2240,6 +2464,7 @@
         "Lng":-100.2833
     },
     {
+        "Occurred":1607097600000,
         "City":"Puerto Morelos",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -2250,6 +2475,7 @@
         "Lng":-86.8753
     },
     {
+        "Occurred":1601493900000,
         "City":"Salinas Victoria",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -2260,6 +2486,7 @@
         "Lng":-100.3
     },
     {
+        "Occurred":1482624900000,
         "City":"Salinas Victoria",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -2270,6 +2497,7 @@
         "Lng":-100.3
     },
     {
+        "Occurred":1587677400000,
         "City":"Nuevo San Juan Parangaricutiro",
         "State_x":"Michoac\u00e1n",
         "Country":"Mexico",
@@ -2280,6 +2508,7 @@
         "Lng":-102.1333
     },
     {
+        "Occurred":1580517000000,
         "City":"Progreso",
         "State_x":"Yucat\u00e1n",
         "Country":"Mexico",
@@ -2290,6 +2519,7 @@
         "Lng":-89.6636
     },
     {
+        "Occurred":1580517000000,
         "City":"Progreso",
         "State_x":"Yucat\u00e1n",
         "Country":"Mexico",
@@ -2300,6 +2530,7 @@
         "Lng":-115.5842
     },
     {
+        "Occurred":1271640600000,
         "City":"Progreso",
         "State_x":"Yucat\u00e1n",
         "Country":"Mexico",
@@ -2310,6 +2541,7 @@
         "Lng":-89.6636
     },
     {
+        "Occurred":1271640600000,
         "City":"Progreso",
         "State_x":"Yucat\u00e1n",
         "Country":"Mexico",
@@ -2320,6 +2552,7 @@
         "Lng":-115.5842
     },
     {
+        "Occurred":1262976300000,
         "City":"Progreso",
         "State_x":"Yucat\u00e1n",
         "Country":"Mexico",
@@ -2330,6 +2563,7 @@
         "Lng":-89.6636
     },
     {
+        "Occurred":1262976300000,
         "City":"Progreso",
         "State_x":"Yucat\u00e1n",
         "Country":"Mexico",
@@ -2340,6 +2574,7 @@
         "Lng":-115.5842
     },
     {
+        "Occurred":978307260000,
         "City":"Progreso",
         "State_x":"Yucat\u00e1n",
         "Country":"Mexico",
@@ -2350,6 +2585,7 @@
         "Lng":-89.6636
     },
     {
+        "Occurred":978307260000,
         "City":"Progreso",
         "State_x":"Yucat\u00e1n",
         "Country":"Mexico",
@@ -2360,6 +2596,7 @@
         "Lng":-115.5842
     },
     {
+        "Occurred":1567202400000,
         "City":"Puerto Penasco",
         "State_x":"Sonora",
         "Country":"Mexico",
@@ -2370,6 +2607,7 @@
         "Lng":-113.5369
     },
     {
+        "Occurred":1558899000000,
         "City":"Puerto Penasco",
         "State_x":"Sonora",
         "Country":"Mexico",
@@ -2380,6 +2618,7 @@
         "Lng":-113.5369
     },
     {
+        "Occurred":1017608400000,
         "City":"Puerto Penasco",
         "State_x":"Sonora",
         "Country":"Mexico",
@@ -2390,6 +2629,7 @@
         "Lng":-113.5369
     },
     {
+        "Occurred":1017608400000,
         "City":"Puerto Penasco",
         "State_x":"Sonora",
         "Country":"Mexico",
@@ -2400,6 +2640,7 @@
         "Lng":-113.5369
     },
     {
+        "Occurred":1016044200000,
         "City":"Puerto Penasco",
         "State_x":"Sonora",
         "Country":"Mexico",
@@ -2410,6 +2651,7 @@
         "Lng":-113.5369
     },
     {
+        "Occurred":1558904400000,
         "City":"Uruapan",
         "State_x":"Michoac\u00e1n",
         "Country":"Mexico",
@@ -2420,6 +2662,7 @@
         "Lng":-102.0628
     },
     {
+        "Occurred":1535573940000,
         "City":"Ensenada",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -2430,6 +2673,7 @@
         "Lng":-116.6058
     },
     {
+        "Occurred":1468177200000,
         "City":"Ensenada",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -2440,6 +2684,7 @@
         "Lng":-116.6058
     },
     {
+        "Occurred":1437778800000,
         "City":"Ensenada",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -2450,6 +2695,7 @@
         "Lng":-116.6058
     },
     {
+        "Occurred":1406033100000,
         "City":"Ensenada",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -2460,6 +2706,7 @@
         "Lng":-116.6058
     },
     {
+        "Occurred":1394683200000,
         "City":"Ensenada",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -2470,6 +2717,7 @@
         "Lng":-116.6058
     },
     {
+        "Occurred":1238757600000,
         "City":"Ensenada",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -2480,6 +2728,7 @@
         "Lng":-116.6058
     },
     {
+        "Occurred":1167673500000,
         "City":"Ensenada",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -2490,6 +2739,7 @@
         "Lng":-116.6058
     },
     {
+        "Occurred":770506200000,
         "City":"Ensenada",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -2500,6 +2750,7 @@
         "Lng":-116.6058
     },
     {
+        "Occurred":627291000000,
         "City":"Ensenada",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -2510,6 +2761,7 @@
         "Lng":-116.6058
     },
     {
+        "Occurred":1535367600000,
         "City":"Guanajuato",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -2520,6 +2772,7 @@
         "Lng":-101.2567
     },
     {
+        "Occurred":1516905000000,
         "City":"Chilpancingo",
         "State_x":"Guerrero",
         "Country":"Mexico",
@@ -2530,6 +2783,7 @@
         "Lng":-99.5
     },
     {
+        "Occurred":1510551600000,
         "City":"Ixtapaluca",
         "State_x":"M\u00e9xico",
         "Country":"Mexico",
@@ -2540,6 +2794,7 @@
         "Lng":-98.8822
     },
     {
+        "Occurred":1502812800000,
         "City":"Etzatlan",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -2550,6 +2805,7 @@
         "Lng":-104.1333
     },
     {
+        "Occurred":1469590380000,
         "City":"Puebla",
         "State_x":"Puebla",
         "Country":"Mexico",
@@ -2560,6 +2816,7 @@
         "Lng":-98.1833
     },
     {
+        "Occurred":727059600000,
         "City":"Puebla",
         "State_x":"Puebla",
         "Country":"Mexico",
@@ -2570,6 +2827,7 @@
         "Lng":-98.1833
     },
     {
+        "Occurred":1451791500000,
         "City":"Playa del Carmen",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -2580,6 +2838,7 @@
         "Lng":-87.0755
     },
     {
+        "Occurred":1425934800000,
         "City":"Playa del Carmen",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -2590,6 +2849,7 @@
         "Lng":-87.0755
     },
     {
+        "Occurred":1395171000000,
         "City":"Playa del Carmen",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -2600,6 +2860,7 @@
         "Lng":-87.0755
     },
     {
+        "Occurred":1322172000000,
         "City":"Playa del Carmen",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -2610,6 +2871,7 @@
         "Lng":-87.0755
     },
     {
+        "Occurred":1207783800000,
         "City":"Playa del Carmen",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -2620,6 +2882,7 @@
         "Lng":-87.0755
     },
     {
+        "Occurred":1114817400000,
         "City":"Playa del Carmen",
         "State_x":"Quintana Roo",
         "Country":"Mexico",
@@ -2630,6 +2893,7 @@
         "Lng":-87.0755
     },
     {
+        "Occurred":1450648800000,
         "City":"Ciudad Sabinas Hidalgo",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -2640,6 +2904,7 @@
         "Lng":-100.1833
     },
     {
+        "Occurred":1195242540000,
         "City":"Ciudad Sabinas Hidalgo",
         "State_x":"Nuevo Le\u00f3n",
         "Country":"Mexico",
@@ -2650,6 +2915,7 @@
         "Lng":-100.1833
     },
     {
+        "Occurred":1438176600000,
         "City":"Buena Vista Tomatlan",
         "State_x":"Michoac\u00e1n",
         "Country":"Mexico",
@@ -2660,6 +2926,7 @@
         "Lng":-102.5869
     },
     {
+        "Occurred":1435797000000,
         "City":"Campeche",
         "State_x":"Campeche",
         "Country":"Mexico",
@@ -2670,6 +2937,7 @@
         "Lng":-90.5306
     },
     {
+        "Occurred":1392926400000,
         "City":"Queretaro",
         "State_x":"Quer\u00e9taro",
         "Country":"Mexico",
@@ -2680,6 +2948,7 @@
         "Lng":-100.3928
     },
     {
+        "Occurred":1287856800000,
         "City":"Queretaro",
         "State_x":"Quer\u00e9taro",
         "Country":"Mexico",
@@ -2690,6 +2959,7 @@
         "Lng":-100.3928
     },
     {
+        "Occurred":1363252140000,
         "City":"Guadalajara",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -2700,6 +2970,7 @@
         "Lng":-103.3475
     },
     {
+        "Occurred":1204983900000,
         "City":"Guadalajara",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -2710,6 +2981,7 @@
         "Lng":-103.3475
     },
     {
+        "Occurred":1166302800000,
         "City":"Guadalajara",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -2720,6 +2992,7 @@
         "Lng":-103.3475
     },
     {
+        "Occurred":911131200000,
         "City":"Guadalajara",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -2730,6 +3003,7 @@
         "Lng":-103.3475
     },
     {
+        "Occurred":445820400000,
         "City":"Guadalajara",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -2740,6 +3014,7 @@
         "Lng":-103.3475
     },
     {
+        "Occurred":1362178800000,
         "City":"Tepic",
         "State_x":"Nayarit",
         "Country":"Mexico",
@@ -2750,6 +3025,7 @@
         "Lng":-104.8931
     },
     {
+        "Occurred":1360233000000,
         "City":"San Carlos Yautepec",
         "State_x":"Oaxaca",
         "Country":"Mexico",
@@ -2760,6 +3036,7 @@
         "Lng":-96.1
     },
     {
+        "Occurred":1161198000000,
         "City":"San Carlos Yautepec",
         "State_x":"Oaxaca",
         "Country":"Mexico",
@@ -2770,6 +3047,7 @@
         "Lng":-96.1
     },
     {
+        "Occurred":1328817000000,
         "City":"Puerto Escondido",
         "State_x":"Oaxaca",
         "Country":"Mexico",
@@ -2780,6 +3058,7 @@
         "Lng":-97.0672
     },
     {
+        "Occurred":1230769500000,
         "City":"Puerto Escondido",
         "State_x":"Oaxaca",
         "Country":"Mexico",
@@ -2790,6 +3069,7 @@
         "Lng":-97.0672
     },
     {
+        "Occurred":1199148300000,
         "City":"Puerto Escondido",
         "State_x":"Oaxaca",
         "Country":"Mexico",
@@ -2800,6 +3080,7 @@
         "Lng":-97.0672
     },
     {
+        "Occurred":1315195200000,
         "City":"Santiago Juxtlahuaca",
         "State_x":"Oaxaca",
         "Country":"Mexico",
@@ -2810,6 +3091,7 @@
         "Lng":-98.0167
     },
     {
+        "Occurred":1313439300000,
         "City":"Torreon",
         "State_x":"Coahuila",
         "Country":"Mexico",
@@ -2820,6 +3102,7 @@
         "Lng":-103.4083
     },
     {
+        "Occurred":1301132100000,
         "City":"Punta Prieta",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -2830,6 +3113,7 @@
         "Lng":-114.1556
     },
     {
+        "Occurred":1299639600000,
         "City":"San Luis Potosi",
         "State_x":"San Luis Potos\u00ed",
         "Country":"Mexico",
@@ -2840,6 +3124,7 @@
         "Lng":-100.9761
     },
     {
+        "Occurred":1136113200000,
         "City":"San Luis Potosi",
         "State_x":"San Luis Potos\u00ed",
         "Country":"Mexico",
@@ -2850,6 +3135,7 @@
         "Lng":-100.9761
     },
     {
+        "Occurred":1136064600000,
         "City":"San Luis Potosi",
         "State_x":"San Luis Potos\u00ed",
         "Country":"Mexico",
@@ -2860,6 +3146,7 @@
         "Lng":-100.9761
     },
     {
+        "Occurred":1012951800000,
         "City":"San Luis Potosi",
         "State_x":"San Luis Potos\u00ed",
         "Country":"Mexico",
@@ -2870,6 +3157,7 @@
         "Lng":-100.9761
     },
     {
+        "Occurred":905893200000,
         "City":"San Luis Potosi",
         "State_x":"San Luis Potos\u00ed",
         "Country":"Mexico",
@@ -2880,6 +3168,7 @@
         "Lng":-100.9761
     },
     {
+        "Occurred":716340600000,
         "City":"San Luis Potosi",
         "State_x":"San Luis Potos\u00ed",
         "Country":"Mexico",
@@ -2890,6 +3179,7 @@
         "Lng":-100.9761
     },
     {
+        "Occurred":1289817720000,
         "City":"Tampico",
         "State_x":"Tamaulipas",
         "Country":"Mexico",
@@ -2900,6 +3190,7 @@
         "Lng":-97.8686
     },
     {
+        "Occurred":786538800000,
         "City":"Tampico",
         "State_x":"Tamaulipas",
         "Country":"Mexico",
@@ -2910,6 +3201,7 @@
         "Lng":-97.8686
     },
     {
+        "Occurred":1288723800000,
         "City":"Morelia",
         "State_x":"Michoac\u00e1n",
         "Country":"Mexico",
@@ -2920,6 +3212,7 @@
         "Lng":-101.1894
     },
     {
+        "Occurred":1288383600000,
         "City":"Morelia",
         "State_x":"Michoac\u00e1n",
         "Country":"Mexico",
@@ -2930,6 +3223,7 @@
         "Lng":-101.1894
     },
     {
+        "Occurred":1288383600000,
         "City":"Morelia",
         "State_x":"Michoac\u00e1n",
         "Country":"Mexico",
@@ -2940,6 +3234,7 @@
         "Lng":-101.1894
     },
     {
+        "Occurred":457513200000,
         "City":"Morelia",
         "State_x":"Michoac\u00e1n",
         "Country":"Mexico",
@@ -2950,6 +3245,7 @@
         "Lng":-101.1894
     },
     {
+        "Occurred":1273268700000,
         "City":"San Felipe",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -2960,6 +3256,7 @@
         "Lng":-101.2167
     },
     {
+        "Occurred":1273268700000,
         "City":"San Felipe",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -2970,6 +3267,7 @@
         "Lng":-114.8353
     },
     {
+        "Occurred":1145664000000,
         "City":"San Felipe",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -2980,6 +3278,7 @@
         "Lng":-101.2167
     },
     {
+        "Occurred":1145664000000,
         "City":"San Felipe",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -2990,6 +3289,7 @@
         "Lng":-114.8353
     },
     {
+        "Occurred":1122325200000,
         "City":"San Felipe",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -3000,6 +3300,7 @@
         "Lng":-101.2167
     },
     {
+        "Occurred":1122325200000,
         "City":"San Felipe",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -3010,6 +3311,7 @@
         "Lng":-114.8353
     },
     {
+        "Occurred":1026943200000,
         "City":"San Felipe",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -3020,6 +3322,7 @@
         "Lng":-101.2167
     },
     {
+        "Occurred":1026943200000,
         "City":"San Felipe",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -3030,6 +3333,7 @@
         "Lng":-114.8353
     },
     {
+        "Occurred":988225200000,
         "City":"San Felipe",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -3040,6 +3344,7 @@
         "Lng":-101.2167
     },
     {
+        "Occurred":988225200000,
         "City":"San Felipe",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -3050,6 +3355,7 @@
         "Lng":-114.8353
     },
     {
+        "Occurred":956869200000,
         "City":"San Felipe",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -3060,6 +3366,7 @@
         "Lng":-101.2167
     },
     {
+        "Occurred":956869200000,
         "City":"San Felipe",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -3070,6 +3377,7 @@
         "Lng":-114.8353
     },
     {
+        "Occurred":929399400000,
         "City":"San Felipe",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -3080,6 +3388,7 @@
         "Lng":-101.2167
     },
     {
+        "Occurred":929399400000,
         "City":"San Felipe",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -3090,6 +3399,7 @@
         "Lng":-114.8353
     },
     {
+        "Occurred":826858800000,
         "City":"San Felipe",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -3100,6 +3410,7 @@
         "Lng":-101.2167
     },
     {
+        "Occurred":826858800000,
         "City":"San Felipe",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -3110,6 +3421,7 @@
         "Lng":-114.8353
     },
     {
+        "Occurred":1262372400000,
         "City":"Jilotepec",
         "State_x":"M\u00e9xico",
         "Country":"Mexico",
@@ -3120,6 +3432,7 @@
         "Lng":-99.5328
     },
     {
+        "Occurred":1262372400000,
         "City":"Jilotepec",
         "State_x":"M\u00e9xico",
         "Country":"Mexico",
@@ -3130,6 +3443,7 @@
         "Lng":-96.9511
     },
     {
+        "Occurred":1250022960000,
         "City":"Xalapa",
         "State_x":"Veracruz",
         "Country":"Mexico",
@@ -3140,6 +3454,7 @@
         "Lng":-96.9275
     },
     {
+        "Occurred":1236455400000,
         "City":"Hermosillo",
         "State_x":"Sonora",
         "Country":"Mexico",
@@ -3150,6 +3465,7 @@
         "Lng":-110.9542
     },
     {
+        "Occurred":1163845800000,
         "City":"Hermosillo",
         "State_x":"Sonora",
         "Country":"Mexico",
@@ -3160,6 +3476,7 @@
         "Lng":-110.9542
     },
     {
+        "Occurred":872373600000,
         "City":"Hermosillo",
         "State_x":"Sonora",
         "Country":"Mexico",
@@ -3170,6 +3487,7 @@
         "Lng":-110.9542
     },
     {
+        "Occurred":1229725500000,
         "City":"Mexicali",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -3180,6 +3498,7 @@
         "Lng":-115.4678
     },
     {
+        "Occurred":1165010400000,
         "City":"Mexicali",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -3190,6 +3509,7 @@
         "Lng":-115.4678
     },
     {
+        "Occurred":779623200000,
         "City":"Mexicali",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -3200,6 +3520,7 @@
         "Lng":-115.4678
     },
     {
+        "Occurred":1223323200000,
         "City":"Cuernavaca",
         "State_x":"Morelos",
         "Country":"Mexico",
@@ -3210,6 +3531,7 @@
         "Lng":-99.2342
     },
     {
+        "Occurred":1220202000000,
         "City":"Cuernavaca",
         "State_x":"Morelos",
         "Country":"Mexico",
@@ -3220,6 +3542,7 @@
         "Lng":-99.2342
     },
     {
+        "Occurred":1114722000000,
         "City":"Cuernavaca",
         "State_x":"Morelos",
         "Country":"Mexico",
@@ -3230,6 +3553,7 @@
         "Lng":-99.2342
     },
     {
+        "Occurred":1019300400000,
         "City":"Cuernavaca",
         "State_x":"Morelos",
         "Country":"Mexico",
@@ -3240,6 +3564,7 @@
         "Lng":-99.2342
     },
     {
+        "Occurred":1222782720000,
         "City":"Tlaltenango de Sanchez Roman",
         "State_x":"Zacatecas",
         "Country":"Mexico",
@@ -3250,6 +3575,7 @@
         "Lng":-103.3059
     },
     {
+        "Occurred":977702400000,
         "City":"Tlaltenango de Sanchez Roman",
         "State_x":"Zacatecas",
         "Country":"Mexico",
@@ -3260,6 +3586,7 @@
         "Lng":-103.3059
     },
     {
+        "Occurred":1202566080000,
         "City":"San Martin Texmelucan de Labastida",
         "State_x":"Puebla",
         "Country":"Mexico",
@@ -3270,6 +3597,7 @@
         "Lng":-98.4333
     },
     {
+        "Occurred":731626500000,
         "City":"San Martin Texmelucan de Labastida",
         "State_x":"Puebla",
         "Country":"Mexico",
@@ -3280,6 +3608,7 @@
         "Lng":-98.4333
     },
     {
+        "Occurred":731619300000,
         "City":"San Martin Texmelucan de Labastida",
         "State_x":"Puebla",
         "Country":"Mexico",
@@ -3290,6 +3619,7 @@
         "Lng":-98.4333
     },
     {
+        "Occurred":1200686400000,
         "City":"Nuevo Laredo",
         "State_x":"Tamaulipas",
         "Country":"Mexico",
@@ -3300,6 +3630,7 @@
         "Lng":-99.5069
     },
     {
+        "Occurred":1125136800000,
         "City":"Nuevo Laredo",
         "State_x":"Tamaulipas",
         "Country":"Mexico",
@@ -3310,6 +3641,7 @@
         "Lng":-99.5069
     },
     {
+        "Occurred":1097488800000,
         "City":"Nuevo Laredo",
         "State_x":"Tamaulipas",
         "Country":"Mexico",
@@ -3320,6 +3652,7 @@
         "Lng":-99.5069
     },
     {
+        "Occurred":1196632800000,
         "City":"Santa Maria Huatulco",
         "State_x":"Oaxaca",
         "Country":"Mexico",
@@ -3330,6 +3663,7 @@
         "Lng":-96.3333
     },
     {
+        "Occurred":828756000000,
         "City":"Santa Maria Huatulco",
         "State_x":"Oaxaca",
         "Country":"Mexico",
@@ -3340,6 +3674,7 @@
         "Lng":-96.3333
     },
     {
+        "Occurred":1171731600000,
         "City":"Culiacan",
         "State_x":"Sinaloa",
         "Country":"Mexico",
@@ -3350,6 +3685,7 @@
         "Lng":-107.3939
     },
     {
+        "Occurred":1163718000000,
         "City":"Zapopan",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -3360,6 +3696,7 @@
         "Lng":-103.4
     },
     {
+        "Occurred":1157227200000,
         "City":"Manzanillo",
         "State_x":"Colima",
         "Country":"Mexico",
@@ -3370,6 +3707,7 @@
         "Lng":-104.3158
     },
     {
+        "Occurred":1154645400000,
         "City":"Tecoman",
         "State_x":"Colima",
         "Country":"Mexico",
@@ -3380,6 +3718,7 @@
         "Lng":-103.8747
     },
     {
+        "Occurred":1135180800000,
         "City":"Durango",
         "State_x":"Durango",
         "Country":"Mexico",
@@ -3390,6 +3729,7 @@
         "Lng":-104.6675
     },
     {
+        "Occurred":1133169000000,
         "City":"Guaymas",
         "State_x":"Sonora",
         "Country":"Mexico",
@@ -3400,6 +3740,7 @@
         "Lng":-110.8933
     },
     {
+        "Occurred":942523200000,
         "City":"Guaymas",
         "State_x":"Sonora",
         "Country":"Mexico",
@@ -3410,6 +3751,7 @@
         "Lng":-110.8933
     },
     {
+        "Occurred":1110479640000,
         "City":"La Paz",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -3420,6 +3762,7 @@
         "Lng":-110.3108
     },
     {
+        "Occurred":977598000000,
         "City":"La Paz",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -3430,6 +3773,7 @@
         "Lng":-110.3108
     },
     {
+        "Occurred":830952000000,
         "City":"La Paz",
         "State_x":"Baja California Sur",
         "Country":"Mexico",
@@ -3440,6 +3784,7 @@
         "Lng":-110.3108
     },
     {
+        "Occurred":1100624700000,
         "City":"Ojuelos de Jalisco",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -3450,6 +3795,7 @@
         "Lng":-101.5833
     },
     {
+        "Occurred":1087393500000,
         "City":"Malinalco",
         "State_x":"M\u00e9xico",
         "Country":"Mexico",
@@ -3460,6 +3806,7 @@
         "Lng":-99.4947
     },
     {
+        "Occurred":1070397000000,
         "City":"Los Mochis",
         "State_x":"Sinaloa",
         "Country":"Mexico",
@@ -3470,6 +3817,7 @@
         "Lng":-108.9937
     },
     {
+        "Occurred":1057523400000,
         "City":"Los Mochis",
         "State_x":"Sinaloa",
         "Country":"Mexico",
@@ -3480,6 +3828,7 @@
         "Lng":-108.9937
     },
     {
+        "Occurred":991198800000,
         "City":"Los Mochis",
         "State_x":"Sinaloa",
         "Country":"Mexico",
@@ -3490,6 +3839,7 @@
         "Lng":-108.9937
     },
     {
+        "Occurred":1066048200000,
         "City":"Guasave",
         "State_x":"Sinaloa",
         "Country":"Mexico",
@@ -3500,6 +3850,7 @@
         "Lng":-108.4718
     },
     {
+        "Occurred":1062541080000,
         "City":"Ajijic",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -3510,6 +3861,7 @@
         "Lng":-103.2833
     },
     {
+        "Occurred":1062367200000,
         "City":"Ajijic",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -3520,6 +3872,7 @@
         "Lng":-103.2833
     },
     {
+        "Occurred":912884400000,
         "City":"Ajijic",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -3530,6 +3883,7 @@
         "Lng":-103.2833
     },
     {
+        "Occurred":1052571600000,
         "City":"Acambaro",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -3540,6 +3894,7 @@
         "Lng":-100.7314
     },
     {
+        "Occurred":1031943660000,
         "City":"Las Maravillas",
         "State_x":"Chiapas",
         "Country":"Mexico",
@@ -3550,6 +3905,7 @@
         "Lng":-91.7333
     },
     {
+        "Occurred":1026170100000,
         "City":"Chihuahua",
         "State_x":"Chihuahua",
         "Country":"Mexico",
@@ -3560,6 +3916,7 @@
         "Lng":-106.0769
     },
     {
+        "Occurred":1017777900000,
         "City":"Chihuahua",
         "State_x":"Chihuahua",
         "Country":"Mexico",
@@ -3570,6 +3927,7 @@
         "Lng":-106.0769
     },
     {
+        "Occurred":1012334400000,
         "City":"Chihuahua",
         "State_x":"Chihuahua",
         "Country":"Mexico",
@@ -3580,6 +3938,7 @@
         "Lng":-106.0769
     },
     {
+        "Occurred":929451600000,
         "City":"Chihuahua",
         "State_x":"Chihuahua",
         "Country":"Mexico",
@@ -3590,6 +3949,7 @@
         "Lng":-106.0769
     },
     {
+        "Occurred":1024106400000,
         "City":"San Quintin",
         "State_x":"Baja California",
         "Country":"Mexico",
@@ -3600,6 +3960,7 @@
         "Lng":-115.95
     },
     {
+        "Occurred":1021056600000,
         "City":"Cuauhtemoc",
         "State_x":"Chihuahua",
         "Country":"Mexico",
@@ -3610,6 +3971,7 @@
         "Lng":-106.8667
     },
     {
+        "Occurred":1021056600000,
         "City":"Cuauhtemoc",
         "State_x":"Chihuahua",
         "Country":"Mexico",
@@ -3620,6 +3982,7 @@
         "Lng":-103.6028
     },
     {
+        "Occurred":991051200000,
         "City":"Nueva Rosita",
         "State_x":"Coahuila",
         "Country":"Mexico",
@@ -3630,6 +3993,7 @@
         "Lng":-101.2172
     },
     {
+        "Occurred":955571400000,
         "City":"Mazamitla",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -3640,6 +4004,7 @@
         "Lng":-103.0208
     },
     {
+        "Occurred":953983800000,
         "City":"Isla",
         "State_x":"Veracruz",
         "Country":"Mexico",
@@ -3650,6 +4015,7 @@
         "Lng":-95.5333
     },
     {
+        "Occurred":912884400000,
         "City":"Valle de Bravo",
         "State_x":"M\u00e9xico",
         "Country":"Mexico",
@@ -3660,6 +4026,7 @@
         "Lng":-100.1306
     },
     {
+        "Occurred":894666600000,
         "City":"Tepatitlan de Morelos",
         "State_x":"Jalisco",
         "Country":"Mexico",
@@ -3670,6 +4037,7 @@
         "Lng":-102.7639
     },
     {
+        "Occurred":868550400000,
         "City":"Tultitlan de Mariano Escobedo",
         "State_x":"M\u00e9xico",
         "Country":"Mexico",
@@ -3680,6 +4048,7 @@
         "Lng":-99.1694
     },
     {
+        "Occurred":863733600000,
         "City":"Tehuacan",
         "State_x":"Puebla",
         "Country":"Mexico",
@@ -3690,6 +4059,7 @@
         "Lng":-97.3928
     },
     {
+        "Occurred":828111600000,
         "City":"Teotihuacan",
         "State_x":"M\u00e9xico",
         "Country":"Mexico",
@@ -3700,6 +4070,7 @@
         "Lng":-98.8608
     },
     {
+        "Occurred":822861000000,
         "City":"Aguascalientes",
         "State_x":"Aguascalientes",
         "Country":"Mexico",
@@ -3710,6 +4081,7 @@
         "Lng":-102.296
     },
     {
+        "Occurred":768434400000,
         "City":"Apaseo el Grande",
         "State_x":"Guanajuato",
         "Country":"Mexico",
@@ -3720,6 +4092,7 @@
         "Lng":-100.6347
     },
     {
+        "Occurred":691624800000,
         "City":"Reynosa",
         "State_x":"Tamaulipas",
         "Country":"Mexico",
@@ -3730,6 +4103,7 @@
         "Lng":-98.2778
     },
     {
+        "Occurred":675810000000,
         "City":"Zihuatanejo",
         "State_x":"Guerrero",
         "Country":"Mexico",
