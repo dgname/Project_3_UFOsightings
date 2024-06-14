@@ -109,21 +109,21 @@ const markerSize = 15;
 let sightingsByCity = {};
 
 // Fetch GeoJSON data for UFO sightings
-d3.json('RESOURCES/ufo_sightings_with_coordinates.json').then(function(data) {
+d3.json('/api').then(function(data) {
     // Process each sighting
     data.forEach(function(sighting) {
-        const { Lat, Lng, Shape, City, Summary, Link } = sighting;
+        const { lat, lng, shape, city, summary, link } = sighting;
 
         // Create a unique key for each city
-        let cityKey = `${City}-${Lat}-${Lng}`;
+        let cityKey = `${city}-${lat}-${lng}`;
 
         // Initialize the city's entry if it doesn't exist
         if (!sightingsByCity[cityKey]) {
             sightingsByCity[cityKey] = {
                 count: 0,
-                Lat: Lat,
-                Lng: Lng,
-                City: City
+                lat: lat,
+                lng: lng,
+                city: city
             };
         }
 
@@ -131,15 +131,15 @@ d3.json('RESOURCES/ufo_sightings_with_coordinates.json').then(function(data) {
         sightingsByCity[cityKey].count += 1;
 
         // Create a circle marker with a larger size based on Shape
-        const marker = L.marker([Lat, Lng], {
+        const marker = L.marker([lat, lng], {
             icon: pinIcon 
-        }).bindPopup(`<strong>Shape:</strong> ${Shape}<br>
-                      <strong>Summary:</strong> ${Summary}<br>
-                      <a href="${Link}" target="_blank">More Information</a>`);
+        }).bindPopup(`<strong>Shape:</strong> ${shape}<br>
+                      <strong>Summary:</strong> ${summary}<br>
+                      <a href="${link}" target="_blank">More Information</a>`);
 
         // Add the marker to the appropriate layer based on UFO shape
-        if (Shape + ' Shape' in overlays) {
-            overlays[Shape + ' Shape'].addLayer(marker);
+        if (shape + ' Shape' in overlays) {
+            overlays[shape + ' Shape'].addLayer(marker);
         }
     });
 
@@ -151,14 +151,14 @@ d3.json('RESOURCES/ufo_sightings_with_coordinates.json').then(function(data) {
         const radius = getRadius(cityData.count/2);
 
         // Create a circle marker for the city
-        const cityMarker = L.circleMarker([cityData.Lat, cityData.Lng], {
+        const cityMarker = L.circleMarker([cityData.lat, cityData.lng], {
             radius: radius,
             fillColor: "yellow",
             color: "#000",
             weight: 1,
             opacity: 1,
             fillOpacity: 0.8
-        }).bindPopup(`<strong>City:</strong> ${cityData.City}<br>
+        }).bindPopup(`<strong>City:</strong> ${cityData.city}<br>
                       <strong>Number of Sightings:</strong> ${cityData.count}`);
 
         // Add this marker to the default layer or any other layer you prefer

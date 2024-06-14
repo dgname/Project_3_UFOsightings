@@ -4,9 +4,9 @@ function loadStates() {
 
     const dropdown = d3.select("#selState");
 
-    d3.json('RESOURCES/ufo_sightings_with_coordinates.json').then((data) => {
+    d3.json('/api').then((data) => {
         // Find the unique values of the states
-        const states = Array.from(new Set(data.map(sighting => sighting.State_x)));
+        const states = Array.from(new Set(data.map(sighting => sighting.state_x)));
 
         // Order the states alphabetically
         states.sort();
@@ -26,7 +26,7 @@ function buildBarChart(data) {
     // count the times a shape was seen
     const shapeCounts = {};
     data.forEach(sighting => {
-        const key = sighting.Shape;
+        const key = sighting.shape;
         shapeCounts[key] = (shapeCounts[key] || 0) + 1;
     });
 
@@ -52,7 +52,7 @@ function buildPieChart(data) {
     // Count the sightings per state per city
     const cityCounts = {};
     data.forEach(sighting => {
-        const key = `${sighting.City}`;
+        const key = `${sighting.city}`;
         cityCounts[key] = (cityCounts[key] || 0) + 1;
     });
 
@@ -73,9 +73,9 @@ function buildPieChart(data) {
 
 // Function to set the visualization depending on the state selected
 function buildCharts(state) {
-    d3.json('RESOURCES/ufo_sightings_with_coordinates.json').then((data) => {
+    d3.json('/api').then((data) => {
         // Filter the sightings per selected state
-        const filteredData = data.filter(sighting => sighting.State_x === state);
+        const filteredData = data.filter(sighting => sighting.state_x === state);
 
         // Plot chart
         buildBarChart(filteredData);

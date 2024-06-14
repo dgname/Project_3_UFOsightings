@@ -22,7 +22,7 @@ def api():
     with engine.connect() as conn:
 
         findf=pd.read_sql('Select * From sightings_with_coordinates',con=conn)
-        dfgroup=findf[['city','shape']]
+        dfgroup=findf[['occurred','city','state_x','country','shape','summary','link','lat','lng']]
         dfgroup.reset_index(inplace=True)
 
     return dfgroup.to_json(orient='records')
