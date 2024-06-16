@@ -1,11 +1,15 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-x: hidden;
   background: #000; /* Space black background */
   font-family: Arial, sans-serif;
   color: white; /* Ensure text is visible */
-  height: 100vh; /* Ensure body covers full height */
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
 }
 
 .intro {
@@ -29,7 +33,7 @@ body {
   background: url('https://unblast.com/wp-content/uploads/2020/07/Star-Patterns-3.jpg') repeat;
   background-size: 50%; /* Zoom out the background */
   z-index: 0;
-  animation: moveStars 90s linear infinite;
+  animation: moveStars 60s linear infinite; /* Slower animation */
 }
 
 @keyframes moveStars {
@@ -37,11 +41,18 @@ body {
   100% { transform: translateY(-50%); } /* Scroll halfway through the double-height background */
 }
 
-/* Ensure the map controls are aligned to the left */
-.leaflet-control-layers {
-  text-align: left;
+.map-container {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
 }
 
-.leaflet-control-layers-overlays label {
-  display: block;
+#map, #animatedMap {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.footer {
+  height: 100px; /* Space below the animated map */
 }
