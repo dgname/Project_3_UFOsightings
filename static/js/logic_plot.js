@@ -1,93 +1,76 @@
-// Set the States on the dropdown menu
+// Define the global data variable
+let data = [];
 
-function loadStates() {
+// Function to populate the dropdown menu with states
+function populateDropdown(states) {
+    let dropdown = d3.select("#selState");
+    dropdown.html(""); // Clear existing options
 
-    const dropdown = d3.select("#selState");
-
-    d3.json('/api').then((data) => {
-        // Find the unique values of the states
-        const states = Array.from(new Set(data.map(sighting => sighting.state_x)));
-
-        // Order the states alphabetically
-        states.sort();
-
-        // Add an option on the dropdown menu per state
-        states.forEach(state => {
-            dropdown.append("option").text(state).attr("value", state);
-        });
-
-        // Set the first visualization for the default state 
-        buildCharts(states[0]);
+    states.forEach(state => {
+        dropdown.append("option").text(state).property("value", state);
     });
+
+    // Debugging: Log the states to ensure they are populated
+    console.log("States populated in dropdown:", states);
 }
 
-// Bar chart visualization
-function buildBarChart(data) {
-    // count the times a shape was seen
-    const shapeCounts = {};
-    data.forEach(sighting => {
-        const key = sighting.shape;
-        shapeCounts[key] = (shapeCounts[key] || 0) + 1;
-    });
+// Function to update the charts based on the selected state
+function updateCharts(state) {
+    // Filter data based on the selected state
+    let stateData = data.filter(sighting => sighting.State_x === state);
 
-    const barData = [{
-        x: Object.keys(shapeCounts),
-        y: Object.values(shapeCounts),
-        type: 'bar'
-    }];
+    // Debugging: Log the stateData to ensure it is filtered correctly
+    console.log(`Data for state ${state}:`, stateData);
 
-    // Set the name of the axis and table
-    const barLayout = {
-        title: 'Number of Sightings per Shape',
-        xaxis: { title: 'Shape' },
-        yaxis: { title: 'Quantity of Sightings' }
-    };
+    // Update the pie chart
+    let shapeCounts = Array.from(d3.group(stateData, d => d.Shape), ([key, value]) => ({ key, value: value.length }));
 
-    // Plot
-    Plotly.newPlot('bar', barData, barLayout);
-}
-
-// Function for Piechart
-function buildPieChart(data) {
-    // Count the sightings per state per city
-    const cityCounts = {};
-    data.forEach(sighting => {
-        const key = `${sighting.city}`;
-        cityCounts[key] = (cityCounts[key] || 0) + 1;
-    });
-
-    const pieData = [{
-        values: Object.values(cityCounts),
-        labels: Object.keys(cityCounts),
+    let pieData = [{
+        values: shapeCounts.map(d => d.value),
+        labels: shapeCounts.map(d => d.key),
         type: 'pie'
     }];
 
-    // Set the title of the chart
-    const pieLayout = {
-        title: 'Sightings per city'
+    Plotly.newPlot('pie', pieData);
+
+    // Update the bar chart
+    let cityCounts = Array.from(d3.group(stateData, d => d.City), ([key, value]) => ({ key, value: value.length }));
+
+    let barData = [{
+        x: cityCounts.map(d => d.key),
+        y: cityCounts.map(d => d.value),
+        type: 'bar'
+    }];
+
+    Plotly.newPlot('bar', barData);
+}
+
+// Load the data and initialize the charts and dropdown menu
+d3.json('/RESOURCES/ufo_sightings_with_coordinates.json').then(function(loadedData) {
+    data = loadedData; // Assign the loaded data to the global variable
+
+    // Debugging: Log the loaded data
+    console.log("Loaded data:", data);
+    console.log("Data structure:", JSON.stringify(data, null, 2));
+
+    // Get the unique states
+    let states = [...new Set(data.map(sighting => sighting.State_x))].sort();
+
+    // Debugging: Log the unique states
+    console.log("Unique states:", states);
+
+    // Populate the dropdown menu with states
+    populateDropdown(states);
+
+    // Initialize the charts with the first state
+    if (states.length > 0) {
+        updateCharts(states[0]);
+    }
+
+    // Update the charts when a new state is selected
+    window.optionChanged = function(state) {
+        updateCharts(state);
     };
-
-    // Plot the chart
-    Plotly.newPlot('pie', pieData, pieLayout);
-}
-
-// Function to set the visualization depending on the state selected
-function buildCharts(state) {
-    d3.json('/api').then((data) => {
-        // Filter the sightings per selected state
-        const filteredData = data.filter(sighting => sighting.state_x === state);
-
-        // Plot chart
-        buildBarChart(filteredData);
-        buildPieChart(filteredData);
-    });
-}
-
-// function to manage the change of state
-function optionChanged(state) {
-    // plot the charts depending on the selected state
-    buildCharts(state);
-}
-
-//initialize dashboard
-loadStates();
+}).catch(function(error) {
+    console.error('Error loading data:', error);
+});
