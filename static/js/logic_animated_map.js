@@ -23,6 +23,21 @@ const animatedMapIcon = L.icon({
     popupAnchor: [0, -32],
 });
 
+// Create a control for displaying the year
+const yearControl = L.control({ position: 'bottomright' });
+
+yearControl.onAdd = function(map) {
+    this._div = L.DomUtil.create('div', 'year-control');
+    this.update();
+    return this._div;
+};
+
+yearControl.update = function(year) {
+    this._div.innerHTML = `<strong>Year:</strong> ${year || ''}`;
+};
+
+yearControl.addTo(animatedMap);
+
 // Load the UFO sighting data
 d3.json('/RESOURCES/ufo_sightings_with_dates.json').then(function(data) {
     if (!data || !Array.isArray(data)) {
@@ -39,6 +54,9 @@ d3.json('/RESOURCES/ufo_sightings_with_dates.json').then(function(data) {
     // Function to update the map for a given year
     function updateMapForYear(year) {
         console.log("Updating map for year:", year);
+
+        // Update the year display
+        yearControl.update(year);
 
         // Clear previous layers
         animatedMap.eachLayer(layer => {
