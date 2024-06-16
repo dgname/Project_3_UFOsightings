@@ -23,9 +23,11 @@ let flashLayer = L.layerGroup();
 let rectangleLayer = L.layerGroup();
 let teardropLayer = L.layerGroup();
 let defaultLayer = L.layerGroup();
+let allLayers = L.layerGroup();
 
 // Define Overlays
 let overlays = {
+    "Select All": allLayers,
     "Light Shape": lightLayer,
     "Sphere Shape": sphereLayer,
     "Circle Shape": circleLayer,
@@ -52,8 +54,7 @@ let overlays = {
     "Sightings Per City": defaultLayer
 };
 
-//set a personalized icon with a image from the web
-
+// Set a personalized icon with an image from the web
 const pinIcon = L.icon({
     iconUrl: 'https://cdn-icons-png.flaticon.com/512/10928/10928949.png',
     iconSize: [32, 32],
@@ -61,7 +62,7 @@ const pinIcon = L.icon({
     popupAnchor: [0, -32],
 });
 
-// Define tile layers (same as before)
+// Define tile layers
 let grayscaleLayer = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a>',
     id: 'mapbox/light-v10',
@@ -86,14 +87,14 @@ let satelliteLayer = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z
     accessToken: 'pk.eyJ1IjoiZGduYW1lIiwiYSI6ImNseDk3djltdDJvZWYybHBvZm8ycDNjYmgifQ.MVi4dHGFLb5Du360HqicFA'
 });
 
-// Adding layers control (same as before)
+// Adding layers control
 let baseLayers = {
     "Grayscale Map": grayscaleLayer,
     "Outdoors Map": outdoorsLayer,
     "Satellite Map": satelliteLayer
 };
 
-// Creating the map object (same as before)
+// Creating the map object
 let myMap = L.map("map", {
     center: [23.634501, -102.552784],
     zoom: 6,
@@ -102,44 +103,53 @@ let myMap = L.map("map", {
 
 L.control.layers(baseLayers, overlays).addTo(myMap);
 
-// Define a larger icon size for markers (unchanged)
+// Define a larger icon size for markers
 const markerSize = 15;
 
 // Create an empty object to store sightings counts by city
 let sightingsByCity = {};
 
 // Fetch GeoJSON data for UFO sightings
-d3.json('/api').then(function(data) {
+d3.json('/RESOURCES/ufo_sightings_with_dates.json').then(function(data) {
+    if (!data || !Array.isArray(data)) {
+        throw new Error('Invalid data format');
+    }
     // Process each sighting
     data.forEach(function(sighting) {
-        const { lat, lng, shape, city, summary, link } = sighting;
+        const { latitude, longitude, shape, city, summary, url } = sighting;
 
-        // Create a unique key for each city
-        let cityKey = `${city}-${lat}-${lng}`;
+        // Check if latitude and longitude are defined and valid numbers
+        if (latitude !== undefined && longitude !== undefined && !isNaN(latitude) && !isNaN(longitude)) {
+            // Create a unique key for each city
+            let cityKey = `${city}-${latitude}-${longitude}`;
 
-        // Initialize the city's entry if it doesn't exist
-        if (!sightingsByCity[cityKey]) {
-            sightingsByCity[cityKey] = {
-                count: 0,
-                lat: lat,
-                lng: lng,
-                city: city
-            };
-        }
+            // Initialize the city's entry if it doesn't exist
+            if (!sightingsByCity[cityKey]) {
+                sightingsByCity[cityKey] = {
+                    count: 0,
+                    latitude: latitude,
+                    longitude: longitude,
+                    city: city
+                };
+            }
 
-        // Increment the count for this city
-        sightingsByCity[cityKey].count += 1;
+            // Increment the count for this city
+            sightingsByCity[cityKey].count += 1;
 
-        // Create a circle marker with a larger size based on Shape
-        const marker = L.marker([lat, lng], {
-            icon: pinIcon 
-        }).bindPopup(`<strong>Shape:</strong> ${shape}<br>
-                      <strong>Summary:</strong> ${summary}<br>
-                      <a href="${link}" target="_blank">More Information</a>`);
+            // Create a circle marker with a larger size based on Shape
+            const marker = L.marker([latitude, longitude], {
+                icon: pinIcon 
+            }).bindPopup(`<strong>Shape:</strong> ${shape}<br>
+                          <strong>Summary:</strong> ${summary}<br>
+                          <a href="${url}" target="_blank">More Information</a>`);
 
-        // Add the marker to the appropriate layer based on UFO shape
-        if (shape + ' Shape' in overlays) {
-            overlays[shape + ' Shape'].addLayer(marker);
+            // Add the marker to the appropriate layer based on UFO shape
+            if (shape + ' Shape' in overlays) {
+                overlays[shape + ' Shape'].addLayer(marker);
+            }
+            allLayers.addLayer(marker);
+        } else {
+            console.warn(`Invalid coordinates for sighting: ${JSON.stringify(sighting)}`);
         }
     });
 
@@ -148,10 +158,10 @@ d3.json('/api').then(function(data) {
         const cityData = sightingsByCity[cityKey];
         
         // Calculate the radius based on the number of sightings (e.g., multiply by 4 for scaling)
-        const radius = getRadius(cityData.count/2);
+        const radius = getRadius(cityData.count / 2);
 
         // Create a circle marker for the city
-        const cityMarker = L.circleMarker([cityData.lat, cityData.lng], {
+        const cityMarker = L.circleMarker([cityData.latitude, cityData.longitude], {
             radius: radius,
             fillColor: "yellow",
             color: "#000",
@@ -163,6 +173,7 @@ d3.json('/api').then(function(data) {
 
         // Add this marker to the default layer or any other layer you prefer
         defaultLayer.addLayer(cityMarker);
+        allLayers.addLayer(cityMarker);
     });
 
 }).catch(function(error) {
