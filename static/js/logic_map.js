@@ -97,7 +97,7 @@ let baseLayers = {
 // Creating the map object
 let myMap = L.map("map", {
     center: [23.634501, -102.552784],
-    zoom: 6,
+    zoom: 5,
     layers: [satelliteLayer] // Setting satellite layer as default
 });
 

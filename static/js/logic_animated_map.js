@@ -1,7 +1,7 @@
 // Define the animated map
 let animatedMap = L.map("animatedMap", {
     center: [23.634501, -102.552784],
-    zoom: 6,
+    zoom: 5,
     layers: [L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
         attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a>',
         id: 'mapbox/satellite-v9',

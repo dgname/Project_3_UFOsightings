@@ -48,6 +48,7 @@ html, body {
 }
 
 #map, #animatedMap {
+  border: 5px solid white; /* Adds a white border with a thickness of 5px */
   width: 800px;
   height: 500px;
   margin: 0 auto;
