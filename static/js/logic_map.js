@@ -110,48 +110,54 @@ const markerSize = 15;
 let sightingsByCity = {};
 
 // Fetch GeoJSON data for UFO sightings
-d3.json('/RESOURCES/ufo_sightings_with_dates.json').then(function(data) {
+d3.json('/api').then(function(data) {
+    // Check if data is valid and in the correct format
     if (!data || !Array.isArray(data)) {
         throw new Error('Invalid data format');
     }
-    // Process each sighting
-    data.forEach(function(sighting) {
-        const { latitude, longitude, shape, city, summary, url } = sighting;
 
-        // Check if latitude and longitude are defined and valid numbers
-        if (latitude !== undefined && longitude !== undefined && !isNaN(latitude) && !isNaN(longitude)) {
-            // Create a unique key for each city
-            let cityKey = `${city}-${latitude}-${longitude}`;
+    // Object to store sightings grouped by city and coordinates
+    let sightingsByCity = {};
+
+    // Process each sighting in the data
+    data.forEach(function(sighting) {
+        const { lat, lng, shape, city, summary, url } = sighting;
+
+            // Create a unique key for each city's coordinates
+            let cityKey = `${city}-${lat}-${lng}`;
 
             // Initialize the city's entry if it doesn't exist
             if (!sightingsByCity[cityKey]) {
                 sightingsByCity[cityKey] = {
                     count: 0,
-                    latitude: latitude,
-                    longitude: longitude,
+                    lat: lat,
+                    lng: lng,
                     city: city
                 };
             }
 
-            // Increment the count for this city
+            // Increment the count for this city's coordinates
             sightingsByCity[cityKey].count += 1;
 
-            // Create a circle marker with a larger size based on Shape
-            const marker = L.marker([latitude, longitude], {
+            // Create a circle marker for the sighting
+            const marker = L.marker([lat, lng], {
                 icon: pinIcon 
-            }).bindPopup(`<strong>Shape:</strong> ${shape}<br>
-                          <strong>Summary:</strong> ${summary}<br>
-                          <a href="${url}" target="_blank">More Information</a>`);
+            }).bindPopup(`
+                <strong>Shape:</strong> ${shape}<br>
+                <strong>Summary:</strong> ${summary}<br>
+                <a href="${url}" target="_blank">More Information</a>
+            `);
 
             // Add the marker to the appropriate layer based on UFO shape
-            if (shape + ' Shape' in overlays) {
-                overlays[shape + ' Shape'].addLayer(marker);
+            const shapeLayerKey = `${shape} Shape`;
+            if (shapeLayerKey in overlays) {
+                overlays[shapeLayerKey].addLayer(marker);
             }
+
+            // Add the marker to a general layer for all sightings
             allLayers.addLayer(marker);
-        } else {
-            console.warn(`Invalid coordinates for sighting: ${JSON.stringify(sighting)}`);
-        }
-    });
+        } 
+    );
 
     // Create markers for each city with the count of sightings
     Object.keys(sightingsByCity).forEach(cityKey => {
@@ -161,7 +167,7 @@ d3.json('/RESOURCES/ufo_sightings_with_dates.json').then(function(data) {
         const radius = getRadius(cityData.count / 2);
 
         // Create a circle marker for the city
-        const cityMarker = L.circleMarker([cityData.latitude, cityData.longitude], {
+        const cityMarker = L.circleMarker([cityData.lat, cityData.lng], {
             radius: radius,
             fillColor: "yellow",
             color: "#000",

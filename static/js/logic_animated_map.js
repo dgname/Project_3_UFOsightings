@@ -39,7 +39,7 @@ yearControl.update = function(year) {
 yearControl.addTo(animatedMap);
 
 // Load the UFO sighting data
-d3.json('/RESOURCES/ufo_sightings_with_dates.json').then(function(data) {
+d3.json('/api').then(function(data) {
     if (!data || !Array.isArray(data)) {
         throw new Error('Invalid data format');
     }
@@ -48,7 +48,7 @@ d3.json('/RESOURCES/ufo_sightings_with_dates.json').then(function(data) {
     console.log("Loaded data:", data);
 
     // Extract years and sort them
-    years = [...new Set(data.map(sighting => new Date(sighting.date).getFullYear()))].sort((a, b) => a - b);
+    years = [...new Set(data.map(sighting => new Date(sighting.occurred).getFullYear()))].sort((a, b) => a - b);
     console.log("Years:", years);
 
     // Function to update the map for a given year
@@ -66,23 +66,23 @@ d3.json('/RESOURCES/ufo_sightings_with_dates.json').then(function(data) {
         });
 
         // Filter data for the current year
-        const sightingsForYear = data.filter(sighting => new Date(sighting.date).getFullYear() === year);
+        const sightingsForYear = data.filter(sighting => new Date(sighting.occurred).getFullYear() === year);
         console.log(`Sightings for ${year}:`, sightingsForYear);
 
         // Transform data to GeoJSON format
         const geojsonFeatures = sightingsForYear.map(sighting => ({
             type: "Feature",
             properties: {
-                date: sighting.date,
+                date: sighting.occurred,
                 shape: sighting.shape,
                 city: sighting.city,
                 state: sighting.state,
                 summary: sighting.summary,
-                url: sighting.url
+                url: sighting.link
             },
             geometry: {
                 type: "Point",
-                coordinates: [sighting.longitude, sighting.latitude]
+                coordinates: [sighting.lng, sighting.lat]
             }
         }));
 
@@ -95,12 +95,12 @@ d3.json('/RESOURCES/ufo_sightings_with_dates.json').then(function(data) {
         L.geoJSON(geojsonData, {
             pointToLayer: function (feature, latlng) {
                 console.log(`Adding marker at ${latlng} for sighting:`, feature);
-                return L.marker(latlng, { icon: animatedMapIcon }).bindPopup(`<strong>Date:</strong> ${feature.properties.date}<br>
+                return L.marker(latlng, { icon: animatedMapIcon }).bindPopup(`<strong>Date:</strong> ${feature.properties.occurred}<br>
                                                                               <strong>Shape:</strong> ${feature.properties.shape}<br>
                                                                               <strong>City:</strong> ${feature.properties.city}<br>
                                                                               <strong>State:</strong> ${feature.properties.state}<br>
                                                                               <strong>Summary:</strong> ${feature.properties.summary}<br>
-                                                                              <a href="${feature.properties.url}" target="_blank">More Information</a>`);
+                                                                              <a href="${feature.properties.link}" target="_blank">More Information</a>`);
             }
         }).addTo(animatedMap);
     }
