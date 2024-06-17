@@ -12,6 +12,10 @@ app = Flask(__name__, static_folder='static', template_folder='templates')
 def take_me_to_map():
     return render_template('index.html')
 
+@app.route("/spanish")
+def take_me_to_spanish():
+    return render_template('index_esp.html')
+
 # @app.route('/RESOURCES/<path:filename>')
 # def serve_resource(filename):
 #     try:
