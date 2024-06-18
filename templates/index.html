@@ -18,12 +18,24 @@
 </head>
 <body>
   
+<!-- Autoplay Audio -->
+<audio id="welcome-audio" src="{{ url_for('static', filename='song.mp3') }}" autoplay></audio>
+
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+      const audio = document.getElementById('welcome-audio');
+      // Optional: Control volume or other settings
+      audio.volume = 0.05; // Set volume to 5%
+      audio.play();
+  });
+</script>
+
   <!-- Background stars -->
   <div id="starfield"></div>
 
   <div class="container intro">
     <h1>🛸UFO Sightings in Mexico🛸</h1>
-    <p>Welcome earthing. Visualize the sighting reports in Mexico. Explore the various UFO shapes by city!</p>
+    <p>Welcome earthling. Visualize reported sightings in Mexico. Explore the various UFO shapes by city!</p>
     <p><a href="/spanish" target="_blank">ESPAÑOL</a></p>
     <p>Play with the interactive map to categorize by shape or explore by city and discover the cities with the highest number of sightings.</p>
   </div>
